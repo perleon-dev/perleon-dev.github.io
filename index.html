@@ -122,7 +122,7 @@
                   En primer lugar, atendi los requerimientos funcionales para la integracion. 
                   En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicion con PHP. 
                   Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.</p>
-                  <button class="btn btn-primary btn-sm">Resumen</button>
+                  <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#ModalResumenExperiancia">Resumen</button>
               </div>
             </div>
 
@@ -171,6 +171,24 @@
         </div>
       </div>
 
+      <!-- Modal ModalResumenExperiancia-->
+      <div class="modal fade" id="ModalResumenExperiancia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       <!-- Optional JavaScript; choose one of the two! -->
