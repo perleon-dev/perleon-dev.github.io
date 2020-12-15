@@ -1,0 +1,51 @@
+var historico = '{
+    "squadName": "Super hero squad",
+    "homeTown": "Metro City",
+    "formed": 2016,
+    "secretBase": "Super tower",
+    "active": true,
+    "ExperienciaLaboral": [
+      {
+        "RazonSocial": "A&S Software Developers",
+        "Tiempo": "4 años",
+        "Descripcion": "Dan Jukes",
+        "powers": [
+          "Radiation resistance",
+          "Turning tiny",
+          "Radiation blast"
+        ]
+      },
+      {
+        "RazonSocial": "Consulado de Italia - Instituto Italiano",
+        "Tiempo": "2 meses",
+        "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, 
+        el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. 
+        En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB.
+        En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. 
+        Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.",
+        "Resumen":{
+                "Labores":[
+                    {"Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark"},
+                    {"Labor": "Analise base de datos", "Estilo": "bg-primary"},
+                    {"Labor": "Planifique soluciones", "Estilo": "bg-secondary"},
+                    {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
+                    {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
+                    {"Labor": "Testing", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "Despliege", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Configuración", "Estilo": "bg-light text-dark"},
+                    {"Labor": "Instalación", "Estilo": "bg-dark"}
+                ],
+                "Tecnologias":[
+                    {"Labor": "PHP", "Estilo": "bg-primary"},
+                    {"Labor": "HTML", "Estilo": "bg-secondary"},
+                    {"Labor": "CSS", "Estilo": "bg-success"},
+                    {"Labor": "Bootstrap", "Estilo": "bg-danger"},
+                    {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "MariaDB", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Linux-Ubuntu", "Estilo": "bg-light text-dark"},
+                    {"Labor": "SSH", "Estilo": "bg-dark"}
+                ]
+            }
+      }
+    ]
+  }';
