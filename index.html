@@ -100,31 +100,7 @@
         </div>
         <div class="container d-flex row mx-auto">
           <h4 id="experiencia" class="col-12 mb-3 mt-5">Experiencia laboral</h4>
-          <div>
-            <div class="d-flex position-relative mt-3">
-              <img src="..." class="flex-shrink-0 me-3" alt="...">
-              <div>
-                <h5 class="mt-0">A&S Software Developers</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <button class="btn btn-primary btn-sm">Resumen</button>
-              </div>
-            </div>
-
-            <div class="d-flex position-relative mt-3">
-              <img src="https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg" height="120" class="flex-shrink-0 me-3" alt="...">
-              <div>
-                <h5 class="mt-0">Consulado de Italia - Instituto Italiano</h5>
-                <!--El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, 
-                sin fines de lucro, cuyo objetivo es la difusión del idioma y la Cultura Italiana de Conformidad con el 
-                Acuerdo Cultural entre el gobierno de la República del Peru y el gobierno de la República Italiana-->
-                <p style="text-align: justify;">El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, 
-                  el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. 
-                  En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB.
-                  En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. 
-                  Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.</p>
-                  <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#ModalResumenExperiancia">Resumen</button>
-              </div>
-            </div>
+          <div id="FormExperiencia">
 
           </div>
         </div>
@@ -163,14 +139,14 @@
           </div>
         </div>
       </div>
-
+<!--
       <div class="container d-flex row mx-auto">
         <h4 id="articulos" class="mb-3 mt-5">Habilidades</h4>
         <div>
           <a tabindex="0" class="btn btn-danger " role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
         </div>
       </div>
-
+    -->
       <!-- Modal ModalResumenExperiancia-->
       <div class="modal fade" id="ModalResumenExperiancia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -181,27 +157,12 @@
             </div>
             <div class="modal-body">
               <div class="fw-bold mt-1 mb-2 text-secondary">Labores</div>
-              <div class="d-fex justify-content-around">
-                <span class="badge rounded-pill bg-dark">Recaudar requerimientos funcionales</span>
-                <span class="badge rounded-pill bg-primary">Analise base de datos</span>
-                <span class="badge rounded-pill bg-secondary">Planifique soluciones</span>
-                <span class="badge rounded-pill bg-success">Desarrollo Front-end</span>
-                <span class="badge rounded-pill bg-danger">Desarrollo Back-end</span>
-                <span class="badge rounded-pill bg-warning text-dark">Testing</span>
-                <span class="badge rounded-pill bg-info text-dark">Despliege</span>
-                <span class="badge rounded-pill bg-light text-dark">Configuración</span>
-                <span class="badge rounded-pill bg-dark">Instalación</span>
+              <div class="d-fex justify-content-around" id="FormLabores">
+
               </div>
               <div class="fw-bold mt-3 mb-2 text-secondary">Tecnologias</div>
-              <div class="d-fex justify-content-between">
-                <span class="badge rounded-pill bg-primary">PHP</span>
-                <span class="badge rounded-pill bg-secondary">HTML</span>
-                <span class="badge rounded-pill bg-success">CSS</span>
-                <span class="badge rounded-pill bg-danger">Bootstrap</span>
-                <span class="badge rounded-pill bg-warning text-dark">JQuery</span>
-                <span class="badge rounded-pill bg-info text-dark">MariaDB</span>
-                <span class="badge rounded-pill bg-light text-dark">Linux-Ubuntu</span>
-                <span class="badge rounded-pill bg-dark">SSH</span>
+              <div class="d-fex justify-content-between" id="FormTecnologias">
+
               </div>
             </div>
             <div class="modal-footer">
@@ -219,9 +180,10 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
       
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
     <script src="index.js"></script>
   </body>
 </html>

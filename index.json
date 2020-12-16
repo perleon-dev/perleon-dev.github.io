@@ -1,4 +1,4 @@
-var historico = '{
+{
     "squadName": "Super hero squad",
     "homeTown": "Metro City",
     "formed": 2016,
@@ -37,7 +37,7 @@ var historico = '{
                     {"Labor": "Git", "Estilo": "bg-danger"},
                     {"Labor": "GitHub", "Estilo": "bg-warning text-dark"},
                     {"Labor": "Microsoft Azure", "Estilo": "bg-info text-dark"},
-                    {"Labor": "Docker", "Estilo": "bg-light text-dark"}
+                    {"Labor": "Docker", "Estilo": "bg-light text-dark"},
                     {"Labor": "SQL Server Profiler", "Estilo": "bg-dark"},
                     {"Labor": "SQL Server 2017", "Estilo": "bg-primary"},
                     {"Labor": "Visual Studio 2019", "Estilo": "bg-secondary"},
@@ -45,17 +45,13 @@ var historico = '{
                     {"Labor": "TypeScript", "Estilo": "bg-danger"},
                     {"Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark"}
                 ]
-          }   
+          }
       },
       {
         "RazonSocial": "Consulado de Italia - Instituto Italiano",
         "Tiempo": "2 meses",
         "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
-        "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, 
-        el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. 
-        En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB.
-        En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. 
-        Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.",
+        "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.",
         "Resumen":{
                 "Labores":[
                     {"Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark"},
@@ -81,4 +77,4 @@ var historico = '{
             }
       }
     ]
-  }';
+  }
