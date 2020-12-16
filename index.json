@@ -8,16 +8,49 @@ var historico = '{
       {
         "RazonSocial": "A&S Software Developers",
         "Tiempo": "4 años",
-        "Descripcion": "Dan Jukes",
-        "powers": [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
+        "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+        "Descripcion": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.",
+        "Resumen":{
+                "Labores":[
+                    {"Labor": "Lider tecnico", "Estilo": "bg-dark"},
+                    {"Labor": "Optimizar querys", "Estilo": "bg-primary"},
+                    {"Labor": "Planificar soluciones", "Estilo": "bg-secondary"},
+                    {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
+                    {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
+                    {"Labor": "Despliege", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "Investigacion", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Atender requerimiento funcionales", "Estilo": "bg-light text-dark"},
+                    {"Labor": "Instalación", "Estilo": "bg-dark"}
+                ],
+                "Tecnologias":[
+                    {"Labor": "PHP", "Estilo": "bg-primary"},
+                    {"Labor": "HTML", "Estilo": "bg-secondary"},
+                    {"Labor": "CSS", "Estilo": "bg-success"},
+                    {"Labor": "Bootstrap", "Estilo": "bg-danger"},
+                    {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "SQL Server 2019", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Windows", "Estilo": "bg-light text-dark"},
+                    {"Labor": "Blazor", "Estilo": "bg-dark"},
+                    {"Labor": "Angular", "Estilo": "bg-primary"},
+                    {"Labor": ".Net Core", "Estilo": "bg-secondary"},
+                    {"Labor": "C#", "Estilo": "bg-success"},
+                    {"Labor": "Git", "Estilo": "bg-danger"},
+                    {"Labor": "GitHub", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "Microsoft Azure", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Docker", "Estilo": "bg-light text-dark"}
+                    {"Labor": "SQL Server Profiler", "Estilo": "bg-dark"},
+                    {"Labor": "SQL Server 2017", "Estilo": "bg-primary"},
+                    {"Labor": "Visual Studio 2019", "Estilo": "bg-secondary"},
+                    {"Labor": "JavaScript", "Estilo": "bg-success"},
+                    {"Labor": "TypeScript", "Estilo": "bg-danger"},
+                    {"Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark"}
+                ]
+          }   
       },
       {
         "RazonSocial": "Consulado de Italia - Instituto Italiano",
         "Tiempo": "2 meses",
+        "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
         "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, 
         el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. 
         En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB.
