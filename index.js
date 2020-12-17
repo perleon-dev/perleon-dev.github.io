@@ -1,8 +1,7 @@
 
 
 var Modal = function(obj){
-
-  console.log(obj);
+  
   var item1="";
   for(var i = 0; i < obj.Labores.length; i++) {
     item1 += `<span class="badge rounded-pill ${obj.Labores[i].Estilo}">${obj.Labores[i].Labor}</span>`;
@@ -20,10 +19,11 @@ var Modal = function(obj){
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
+
     var x = JSON.parse(this.responseText);
-    console.log("response: "+x.ExperienciaLaboral);
     var obj="";
     for(var i = 0; i < x.ExperienciaLaboral.length; i++) {
+
         obj += `<div class="d-flex position-relative mt-3">
                     <img src="${x.ExperienciaLaboral[i].Img}" height="120" class="flex-shrink-0 me-3" alt="...">
                     <div>

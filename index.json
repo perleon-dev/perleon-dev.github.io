@@ -1,9 +1,54 @@
 {
-    "squadName": "Super hero squad",
-    "homeTown": "Metro City",
-    "formed": 2016,
-    "secretBase": "Super tower",
-    "active": true,
+    "NombreCompleto": "Percy Luis Leon Lucas",
+    "Ocupacion": "Analista de desarrollo",
+    "Pais": "<b>Pais:</b> Perú",
+    "Edad": "<b>Edad:</b> 23 años",
+    "Email": "<b>Email:</b> percyleon107@gmail.com",
+    "ProvinciaDistrito": "Lima-Chorrillos",
+    "Domicilio": "Buenos aires de villa Mz-42B Lt-14",
+    "Skills":[
+        {
+            "Area": "Front-End",
+            "Estilo": "list-group-item-info fw-bold",
+            "Lista":[
+                {"Habilidad": "Blazor"},
+                {"Habilidad": "Angular"},
+                {"Habilidad": "HTML"},
+                {"Habilidad": "CSS"},
+                {"Habilidad": "JavaScript"},
+                {"Habilidad": "TypeScript"},
+                {"Habilidad": "JQuery"}
+            ]
+        },
+        {
+            "Area": "Back-End",
+            "Estilo": "list-group-item-primary fw-bold",
+            "Lista":[
+                {"Habilidad": "C#"},
+                {"Habilidad": ".Net Core"},
+                {"Habilidad": "SQL Express"},
+                {"Habilidad": "MySql"},
+                {"Habilidad": "PHP"}
+            ]
+        },
+        {
+            "Area": "DevOps",
+            "Estilo": "list-group-item-warning fw-bold",
+            "Lista":[
+                {"Habilidad": "Microsoft Azure"},
+                {"Habilidad": "Docker"},
+                {"Habilidad": "Git"},
+                {"Habilidad": "GitHub"}
+            ]
+        },
+        {
+            "Area": "Movil Apps",
+            "Estilo": "list-group-item-success fw-bold",
+            "Lista":[
+                {"Habilidad": "Xamarin Forms"}
+            ]
+        }
+    ],
     "ExperienciaLaboral": [
       {
         "RazonSocial": "A&S Software Developers",
