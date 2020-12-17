@@ -22,6 +22,21 @@ xhttp.onreadystatechange = function() {
 
     var x = JSON.parse(this.responseText);
     var obj="";
+    var skillsItem ="";
+    for(var e = 0; e<x.Skills.length; e++)
+    {
+      skillsItem +=`<ul class="list-group col-3">
+                      <li class="list-group-item ${x.Skills[e].Estilo}">${x.Skills[e].Area}</li>`;
+      for(var a = 0; a<x.Skills[e].Lista.length; a++)
+      {
+        skillsItem +=`<li class="list-group-item">${x.Skills[e].Lista[a].Habilidad}</li>`;
+      }
+      skillsItem +=`</ul>`;
+
+    }
+
+    document.getElementById("Skills-Esp").innerHTML = skillsItem;
+
     for(var i = 0; i < x.ExperienciaLaboral.length; i++) {
 
         obj += `<div class="d-flex position-relative mt-3">
