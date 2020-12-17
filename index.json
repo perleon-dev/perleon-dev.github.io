@@ -27,6 +27,7 @@
                 {"Habilidad": "C#"},
                 {"Habilidad": ".Net Core"},
                 {"Habilidad": "SQL Express"},
+                {"Habilidad": "Entity Framework Core"},
                 {"Habilidad": "MySql"},
                 {"Habilidad": "PHP"}
             ]
