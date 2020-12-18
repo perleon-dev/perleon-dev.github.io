@@ -37,8 +37,18 @@
         </div>
       </nav>
 
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
-        
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2 " data-bs-offset="0" tabindex="0">
+        <div class="container d-flex mx-auto justify-content-end pt-4">
+          <form class="form-inline" style="width: 190px;">
+            <div class="form-group d-flex justify-content-around">
+              <label for="staticEmail2" class="sr-only">Idioma</label>
+              <select class="form-control form-control-sm" style="width: 100px;">
+                <option>Español</option>
+                <option>Ingles</option>
+              </select>
+            </div>
+          </form>
+        </div>
         <div class="container d-flex row mx-auto">
           <h4 id="presentacion" class="col-12 mb-3 mt-5">Presentación</h4>
           <div class="d-flex">
@@ -80,33 +90,8 @@
         <div class="container d-flex row mx-auto">
           <h4 id="articulos" class="mb-3 mt-5">Articulos</h4>
           <div>
-            <div class="card-group">
-              <div class="card">
-                <img src="https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Blazor WebAssembly</h5>
-                  <p class="card-text" style="text-align: justify;">Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. 
-                    Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. 
-                    Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador. </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="https://www.popwebdesign.net/popart_blog/wp-content/uploads/2020/07/what-is-new-in-dotnet-5.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">.Net 5</h5>
-                  <p class="card-text" style="text-align: justify;">This card has supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Golang</h5>
-                  <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+            <div class="card-group" id="Articulos-Esp">
+                
             </div>
           </div>
         </div>

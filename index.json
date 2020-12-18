@@ -6,7 +6,7 @@
     "Email": "<b>Email:</b> percyleon107@gmail.com",
     "ProvinciaDistrito": "Lima-Chorrillos",
     "Domicilio": "Buenos aires de villa Mz-42B Lt-14",
-    "Skills":[
+    "Skills": [
         {
             "Area": "Front-End",
             "Estilo": "list-group-item-info fw-bold",
@@ -122,5 +122,25 @@
                 ]
             }
       }
+    ],
+    "Articulos": [
+        {
+            "Titulo": "Blazor WebAssembly",
+            "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Fecha": "10-12-2020"
+        },
+        {
+            "Titulo": ".Net 5",
+            "Imagen": "https://www.popwebdesign.net/popart_blog/wp-content/uploads/2020/07/what-is-new-in-dotnet-5.png",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Fecha": "10-12-2020"
+        },
+        {
+            "Titulo": "Golang",
+            "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Fecha": "10-12-2020"
+        }
     ]
   }

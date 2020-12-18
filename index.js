@@ -1,5 +1,3 @@
-
-
 var Modal = function(obj){
   
   var item1="";
@@ -21,9 +19,12 @@ xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
 
     var x = JSON.parse(this.responseText);
+
     var obj="";
     var skillsItem ="";
+    var art ="";
 
+    /* Listar las habilidades */
     for(var e = 0; e<x.Skills.length; e++)
     {
       skillsItem +=`<ul class="list-group col-3">
@@ -40,9 +41,10 @@ xhttp.onreadystatechange = function() {
 
     document.getElementById("Skills-Esp").innerHTML = skillsItem;
 
+    /* Listar experiencia laboral */
     for(var i = 0; i < x.ExperienciaLaboral.length; i++) {
 
-        obj += `<div class="d-flex position-relative mt-3">
+        obj += `<div class="d-flex position-relative pt-3">
                     <img src="${x.ExperienciaLaboral[i].Img}" height="120" class="flex-shrink-0 me-3" alt="...">
                     <div>
                       <h5 class="mt-0">${x.ExperienciaLaboral[i].RazonSocial}</h5>
@@ -50,9 +52,24 @@ xhttp.onreadystatechange = function() {
                         <button class="btn btn-primary btn-sm" data-bs-toggle="modal" onclick='Modal(${JSON.stringify(x.ExperienciaLaboral[i].Resumen)})' data-bs-target="#ModalResumenExperiancia">Resumen</button>
                     </div>
                   </div>`;
+      }
 
-      document.getElementById("FormExperiencia").innerHTML = obj;
-    }
+    document.getElementById("FormExperiencia").innerHTML = obj;
+
+    /* Listar Articulos */
+
+    for(var o = 0; o < x.Articulos.length; o++){
+        art +=`<div class="card">
+                <img src="${x.Articulos[o].Imagen}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">${x.Articulos[o].Titulo}</h5>
+                  <p class="card-text" style="text-align: justify;">${x.Articulos[o].Contenido}</p>
+                  <p class="card-text"><small class="text-muted">${x.Articulos[o].Fecha}</small></p>
+                </div>
+              </div>`;
+        }
+
+      document.getElementById("Articulos-Esp").innerHTML = art;
   }
 };
 
