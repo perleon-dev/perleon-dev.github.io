@@ -31,10 +31,12 @@ xhttp.onreadystatechange = function() {
       presentacion +=`<p class="card-text mb-0">${x.DatosPersonales[u].item}</p>`;
     }
 
+    /* Listar los datos personales */
     document.getElementById("DatosPersonales-Esp").innerHTML = presentacion;
 
+    /* Mostrar la presentacion */
     document.getElementById("Presentacion-Esp").innerHTML = x.Presentacion;
-    
+
     /* Listar las habilidades */
     for(var e = 0; e<x.Skills.length; e++)
     {
