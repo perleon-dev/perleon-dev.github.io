@@ -1,11 +1,13 @@
 {
     "NombreCompleto": "Percy Luis Leon Lucas",
-    "Ocupacion": "Analista de desarrollo",
-    "Pais": "<b>Pais:</b> Perú",
-    "Edad": "<b>Edad:</b> 23 años",
-    "Email": "<b>Email:</b> percyleon107@gmail.com",
-    "ProvinciaDistrito": "Lima-Chorrillos",
-    "Domicilio": "Buenos aires de villa Mz-42B Lt-14",
+    "Cargo": "Analista de desarrollo",
+    "DatosPersonales":[
+        {"item":"<b>Pais:</b> Perú"},
+        {"item":"<b>Edad:</b> 23 años"},
+        {"item":"<b>Email:</b> percyleon107@gmail.com"},
+        {"item":"Lima-Chorrillos"}
+    ],
+    "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
     "Skills": [
         {
             "Area": "Front-End",

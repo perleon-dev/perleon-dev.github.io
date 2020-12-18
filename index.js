@@ -23,7 +23,18 @@ xhttp.onreadystatechange = function() {
     var obj="";
     var skillsItem ="";
     var art ="";
+    var presentacion =`<h5 class="card-title">${x.NombreCompleto}</h5>
+                          <p class="card-text">${x.Cargo}</p>`;
 
+    for(var u = 0; u<x.DatosPersonales.length; u++)
+    {
+      presentacion +=`<p class="card-text mb-0">${x.DatosPersonales[u].item}</p>`;
+    }
+
+    document.getElementById("DatosPersonales-Esp").innerHTML = presentacion;
+
+    document.getElementById("Presentacion-Esp").innerHTML = x.Presentacion;
+    
     /* Listar las habilidades */
     for(var e = 0; e<x.Skills.length; e++)
     {
@@ -54,7 +65,7 @@ xhttp.onreadystatechange = function() {
                   </div>`;
       }
 
-    document.getElementById("FormExperiencia").innerHTML = obj;
+    document.getElementById("FormExperiencia-Esp").innerHTML = obj;
 
     /* Listar Articulos */
 
