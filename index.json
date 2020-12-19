@@ -1,4 +1,4 @@
-{
+{"ESP" : {
     "NombreCompleto": "Percy Luis Leon Lucas",
     "Cargo": "Analista de desarrollo",
     "DatosPersonales":[
@@ -145,4 +145,154 @@
             "Fecha": "10-12-2020"
         }
     ]
+  },
+  "ENG": {
+    "NombreCompleto": "Percy Luis Leon Lucas",
+    "Cargo": "Analista de desarrollo",
+    "DatosPersonales":[
+        {"item":"<b>Pais:</b> Perú"},
+        {"item":"<b>Edad:</b> 23 años"},
+        {"item":"<b>Email:</b> percyleon107@gmail.com"},
+        {"item":"Lima-Chorrillos"}
+    ],
+    "Presentacion":"Hello, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
+    "Skills": [
+        {
+            "Area": "Front-End",
+            "Estilo": "list-group-item-info fw-bold",
+            "Lista":[
+                {"Habilidad": "Blazor"},
+                {"Habilidad": "Angular"},
+                {"Habilidad": "HTML"},
+                {"Habilidad": "CSS"},
+                {"Habilidad": "JavaScript"},
+                {"Habilidad": "TypeScript"},
+                {"Habilidad": "JQuery"}
+            ]
+        },
+        {
+            "Area": "Back-End",
+            "Estilo": "list-group-item-primary fw-bold",
+            "Lista":[
+                {"Habilidad": "C#"},
+                {"Habilidad": ".Net Core"},
+                {"Habilidad": "SQL Express"},
+                {"Habilidad": "Entity Framework Core"},
+                {"Habilidad": "MySql"},
+                {"Habilidad": "PHP"}
+            ]
+        },
+        {
+            "Area": "DevOps",
+            "Estilo": "list-group-item-warning fw-bold",
+            "Lista":[
+                {"Habilidad": "Microsoft Azure"},
+                {"Habilidad": "Docker"},
+                {"Habilidad": "Git"},
+                {"Habilidad": "GitHub"}
+            ]
+        },
+        {
+            "Area": "Movil Apps",
+            "Estilo": "list-group-item-success fw-bold",
+            "Lista":[
+                {"Habilidad": "Xamarin Forms"}
+            ]
+        }
+    ],
+    "ExperienciaLaboral": [
+      {
+        "RazonSocial": "A&S Software Developers",
+        "Tiempo": "4 años",
+        "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+        "Descripcion": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.",
+        "Resumen":{
+                "Labores":[
+                    {"Labor": "Lider tecnico", "Estilo": "bg-dark"},
+                    {"Labor": "Optimizar querys", "Estilo": "bg-primary"},
+                    {"Labor": "Planificar soluciones", "Estilo": "bg-secondary"},
+                    {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
+                    {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
+                    {"Labor": "Despliege", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "Investigacion", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Atender requerimiento funcionales", "Estilo": "bg-light text-dark"},
+                    {"Labor": "Instalación", "Estilo": "bg-dark"}
+                ],
+                "Tecnologias":[
+                    {"Labor": "PHP", "Estilo": "bg-primary"},
+                    {"Labor": "HTML", "Estilo": "bg-secondary"},
+                    {"Labor": "CSS", "Estilo": "bg-success"},
+                    {"Labor": "Bootstrap", "Estilo": "bg-danger"},
+                    {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "SQL Server 2019", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Windows", "Estilo": "bg-light text-dark"},
+                    {"Labor": "Blazor", "Estilo": "bg-dark"},
+                    {"Labor": "Angular", "Estilo": "bg-primary"},
+                    {"Labor": ".Net Core", "Estilo": "bg-secondary"},
+                    {"Labor": "C#", "Estilo": "bg-success"},
+                    {"Labor": "Git", "Estilo": "bg-danger"},
+                    {"Labor": "GitHub", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "Microsoft Azure", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Docker", "Estilo": "bg-light text-dark"},
+                    {"Labor": "SQL Server Profiler", "Estilo": "bg-dark"},
+                    {"Labor": "SQL Server 2017", "Estilo": "bg-primary"},
+                    {"Labor": "Visual Studio 2019", "Estilo": "bg-secondary"},
+                    {"Labor": "JavaScript", "Estilo": "bg-success"},
+                    {"Labor": "TypeScript", "Estilo": "bg-danger"},
+                    {"Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark"}
+                ]
+          }
+      },
+      {
+        "RazonSocial": "Consulado de Italia - Instituto Italiano",
+        "Tiempo": "2 meses",
+        "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+        "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.",
+        "Resumen":{
+                "Labores":[
+                    {"Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark"},
+                    {"Labor": "Analise base de datos", "Estilo": "bg-primary"},
+                    {"Labor": "Planifique soluciones", "Estilo": "bg-secondary"},
+                    {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
+                    {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
+                    {"Labor": "Testing", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "Despliege", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Configuración", "Estilo": "bg-light text-dark"},
+                    {"Labor": "Instalación", "Estilo": "bg-dark"}
+                ],
+                "Tecnologias":[
+                    {"Labor": "PHP", "Estilo": "bg-primary"},
+                    {"Labor": "HTML", "Estilo": "bg-secondary"},
+                    {"Labor": "CSS", "Estilo": "bg-success"},
+                    {"Labor": "Bootstrap", "Estilo": "bg-danger"},
+                    {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
+                    {"Labor": "MariaDB", "Estilo": "bg-info text-dark"},
+                    {"Labor": "Linux-Ubuntu", "Estilo": "bg-light text-dark"},
+                    {"Labor": "SSH", "Estilo": "bg-dark"}
+                ]
+            }
+      }
+    ],
+    "Articulos": [
+        {
+            "Titulo": "Blazor WebAssembly",
+            "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Fecha": "10-12-2020"
+        },
+        {
+            "Titulo": ".Net 5",
+            "Imagen": "https://www.popwebdesign.net/popart_blog/wp-content/uploads/2020/07/what-is-new-in-dotnet-5.png",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Fecha": "10-12-2020"
+        },
+        {
+            "Titulo": "Golang",
+            "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Fecha": "10-12-2020"
+        }
+    ]
   }
+
+}

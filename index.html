@@ -40,11 +40,11 @@
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2 " data-bs-offset="0" tabindex="0">
         <div class="container d-flex mx-auto justify-content-end pt-4">
           <form class="form-inline" style="width: 190px;">
-            <div class="form-group d-flex justify-content-around">
+            <div class="form-group d-flex justify-content-around align-items-center">
               <label for="staticEmail2" class="sr-only">Idioma</label>
-              <select class="form-control form-control-sm" style="width: 100px;">
-                <option>Español</option>
-                <option>Ingles</option>
+              <select class="form-control form-control-sm" style="width: 100px;"  onchange="Idioma(this.value)"> 
+                <option value="ESP">Español</option>
+                <option value="ENG">Ingles</option>
               </select>
             </div>
           </form>
