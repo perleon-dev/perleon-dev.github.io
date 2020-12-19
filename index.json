@@ -1,4 +1,7 @@
 {"ESP" : {
+    "NavTitle":"Bienvenido",
+    "NavItem1":"Presentación",
+    "NavItem2":"Experiencia laboral",
     "NombreCompleto": "Percy Luis Leon Lucas",
     "Cargo": "Analista de desarrollo",
     "DatosPersonales":[
@@ -147,6 +150,9 @@
     ]
   },
   "ENG": {
+    "NavTitle":"welcome",
+    "NavItem1":"About me",
+    "NavItem2":"Work experience",
     "NombreCompleto": "Percy Luis Leon Lucas",
     "Cargo": "Analista de desarrollo",
     "DatosPersonales":[

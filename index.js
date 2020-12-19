@@ -28,8 +28,7 @@ function Idioma(lenguaje){
       var presentacion =`<h5 class="card-title">${x.NombreCompleto}</h5>
                             <p class="card-text">${x.Cargo}</p>`;
 
-      for(var u = 0; u<x.DatosPersonales.length; u++)
-      {
+      for(var u = 0; u<x.DatosPersonales.length; u++) {
         presentacion +=`<p class="card-text mb-0">${x.DatosPersonales[u].item}</p>`;
       }
 
@@ -40,14 +39,13 @@ function Idioma(lenguaje){
       document.getElementById("Presentacion-Esp").innerHTML = x.Presentacion;
 
       /* Listar las habilidades */
-      for(var e = 0; e<x.Skills.length; e++)
-      {
+      for(var e = 0; e<x.Skills.length; e++) {
+
         skillsItem +=`<ul class="list-group col-3">
                         <li class="list-group-item ${x.Skills[e].Estilo}">${x.Skills[e].Area}</li>`;
 
-        for(var a = 0; a<x.Skills[e].Lista.length; a++)
-        {
-          console.log(x.Skills[e].Lista[a].Nivel);
+        for(var a = 0; a<x.Skills[e].Lista.length; a++) {
+
           skillsItem +=`<li class="list-group-item d-flex justify-content-between align-items-center px-2">
                           ${x.Skills[e].Lista[a].Habilidad}
                           <span class="badge bg-primary rounded-pill">${x.Skills[e].Lista[a].Nivel}</span>
@@ -55,7 +53,6 @@ function Idioma(lenguaje){
         }
 
         skillsItem +=`</ul>`;
-
       }
 
       document.getElementById("Skills-Esp").innerHTML = skillsItem;
@@ -77,7 +74,7 @@ function Idioma(lenguaje){
 
       /* Listar Articulos */
 
-      for(var o = 0; o < x.Articulos.length; o++){
+      for(var o = 0; o < x.Articulos.length; o++) {
           art +=`<div class="card">
                   <img src="${x.Articulos[o].Imagen}" class="card-img-top" alt="...">
                   <div class="card-body">
