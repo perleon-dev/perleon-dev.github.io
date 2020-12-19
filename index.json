@@ -1,7 +1,13 @@
 {"ESP" : {
     "NavTitle":"Bienvenido",
     "NavItem1":"Presentación",
-    "NavItem2":"Experiencia laboral",
+    "NavItem2":"Experiencia&nbsp;laboral",
+    "NavItem3":"ArtÍculos",
+    "TitleLanguage":"Idioma",
+    "Idiomas": [
+        {"Idioma": "Español", "Abreviatura": "ESP"},
+        {"Idioma": "Ingles", "Abreviatura": "ENG"}
+    ],
     "NombreCompleto": "Percy Luis Leon Lucas",
     "Cargo": "Analista de desarrollo",
     "DatosPersonales":[
@@ -150,9 +156,15 @@
     ]
   },
   "ENG": {
-    "NavTitle":"welcome",
-    "NavItem1":"About me",
-    "NavItem2":"Work experience",
+    "NavTitle":"Welcome",
+    "NavItem1":"About&nbsp;me",
+    "NavItem2":"Work&nbsp;experience",
+    "NavItem3":"Articles",
+    "TitleLanguage":"Language",
+    "Idiomas": [
+        {"Idioma": "Spanish", "Abreviatura": "ESP"},
+        {"Idioma": "English", "Abreviatura": "ENG"}
+    ],
     "NombreCompleto": "Percy Luis Leon Lucas",
     "Cargo": "Analista de desarrollo",
     "DatosPersonales":[

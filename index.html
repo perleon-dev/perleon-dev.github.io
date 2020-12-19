@@ -19,18 +19,18 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                   <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-top">
-                  Bienvenido
+                  <span id="NavTitle"></span>
                 </a>
               </div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#presentacion">Presentación</a>
+                <a class="nav-link active" aria-current="page" href="#presentacion" id="Item1"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#experiencia">Experiencia&nbsp;laboral</a>
+                <a class="nav-link" href="#experiencia" id="Item2"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#articulos">Articulos</a>
+                <a class="nav-link" href="#articulos" id="Item3"></a>
               </li>
             </ul>
           </div>
@@ -42,8 +42,8 @@
         <div class="container d-flex mx-auto justify-content-end pt-4">
           <form class="form-inline" style="width: 190px;">
             <div class="form-group d-flex justify-content-around align-items-center">
-              <label for="staticEmail2" class="sr-only">Idioma</label>
-              <select class="form-control form-control-sm" style="width: 100px;"  onchange="Idioma(this.value)"> 
+              <label for="ListaIdioma" id="TitleLanguage" class="sr-only"></label>
+              <select class="form-control form-control-sm" id="ListaIdioma" style="width: 100px;"  onchange="Idioma(this.value)"> 
                 <option value="ESP">Español</option>
                 <option value="ENG">Ingles</option>
               </select>

@@ -27,6 +27,22 @@ function Idioma(lenguaje){
       var art ="";
       var presentacion =`<h5 class="card-title">${x.NombreCompleto}</h5>
                             <p class="card-text">${x.Cargo}</p>`;
+      var optionIdioma = "";
+
+      document.getElementById("NavTitle").innerHTML = x.NavTitle;
+      document.getElementById("Item1").innerHTML = x.NavItem1;
+      document.getElementById("Item2").innerHTML = x.NavItem2;
+      document.getElementById("Item3").innerHTML = x.NavItem3;
+
+      document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage
+
+      
+      for(var b = 0; b<x.Idiomas.length; b++) {
+        var select = (lenguaje == x.Idiomas[b].Abreviatura)?"selected":"";
+        optionIdioma +=`<option value="${x.Idiomas[b].Abreviatura}" ${select}>${x.Idiomas[b].Idioma}</option>`;
+      }
+
+      document.getElementById("ListaIdioma").innerHTML = optionIdioma;
 
       for(var u = 0; u<x.DatosPersonales.length; u++) {
         presentacion +=`<p class="card-text mb-0">${x.DatosPersonales[u].item}</p>`;
