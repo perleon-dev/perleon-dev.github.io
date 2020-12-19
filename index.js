@@ -47,7 +47,11 @@ function Idioma(lenguaje){
 
         for(var a = 0; a<x.Skills[e].Lista.length; a++)
         {
-          skillsItem +=`<li class="list-group-item">${x.Skills[e].Lista[a].Habilidad}</li>`;
+          console.log(x.Skills[e].Lista[a].Nivel);
+          skillsItem +=`<li class="list-group-item d-flex justify-content-between align-items-center px-2">
+                          ${x.Skills[e].Lista[a].Habilidad}
+                          <span class="badge bg-primary rounded-pill">${x.Skills[e].Lista[a].Nivel}</span>
+                        </li>`;
         }
 
         skillsItem +=`</ul>`;

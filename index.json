@@ -13,42 +13,42 @@
             "Area": "Front-End",
             "Estilo": "list-group-item-info fw-bold",
             "Lista":[
-                {"Habilidad": "Blazor"},
-                {"Habilidad": "Angular"},
-                {"Habilidad": "HTML"},
-                {"Habilidad": "CSS"},
-                {"Habilidad": "JavaScript"},
-                {"Habilidad": "TypeScript"},
-                {"Habilidad": "JQuery"}
+                {"Habilidad": "Blazor", "Nivel": "10"},
+                {"Habilidad": "Angular", "Nivel": "7"},
+                {"Habilidad": "HTML", "Nivel": "10"},
+                {"Habilidad": "CSS", "Nivel": "10"},
+                {"Habilidad": "JavaScript", "Nivel": "9"},
+                {"Habilidad": "TypeScript", "Nivel": "8"},
+                {"Habilidad": "JQuery", "Nivel": "7"}
             ]
         },
         {
             "Area": "Back-End",
             "Estilo": "list-group-item-primary fw-bold",
             "Lista":[
-                {"Habilidad": "C#"},
-                {"Habilidad": ".Net Core"},
-                {"Habilidad": "SQL Express"},
-                {"Habilidad": "Entity Framework Core"},
-                {"Habilidad": "MySql"},
-                {"Habilidad": "PHP"}
+                {"Habilidad": "C#", "Nivel": "10"},
+                {"Habilidad": ".Net Core", "Nivel": "10"},
+                {"Habilidad": "SQL Express", "Nivel": "7"},
+                {"Habilidad": "Entity Framework Core", "Nivel": "7"},
+                {"Habilidad": "MySql", "Nivel": "8"},
+                {"Habilidad": "PHP", "Nivel": "10"}
             ]
         },
         {
             "Area": "DevOps",
             "Estilo": "list-group-item-warning fw-bold",
             "Lista":[
-                {"Habilidad": "Microsoft Azure"},
-                {"Habilidad": "Docker"},
-                {"Habilidad": "Git"},
-                {"Habilidad": "GitHub"}
+                {"Habilidad": "Microsoft Azure", "Nivel": "8"},
+                {"Habilidad": "Docker", "Nivel": "6"},
+                {"Habilidad": "Git", "Nivel": "8"},
+                {"Habilidad": "GitHub", "Nivel": "8"}
             ]
         },
         {
             "Area": "Movil Apps",
             "Estilo": "list-group-item-success fw-bold",
             "Lista":[
-                {"Habilidad": "Xamarin Forms"}
+                {"Habilidad": "Xamarin Forms", "Nivel": "7"}
             ]
         }
     ],
@@ -161,42 +161,42 @@
             "Area": "Front-End",
             "Estilo": "list-group-item-info fw-bold",
             "Lista":[
-                {"Habilidad": "Blazor"},
-                {"Habilidad": "Angular"},
-                {"Habilidad": "HTML"},
-                {"Habilidad": "CSS"},
-                {"Habilidad": "JavaScript"},
-                {"Habilidad": "TypeScript"},
-                {"Habilidad": "JQuery"}
+                {"Habilidad": "Blazor", "Nivel": "10"},
+                {"Habilidad": "Angular", "Nivel": "7"},
+                {"Habilidad": "HTML", "Nivel": "10"},
+                {"Habilidad": "CSS", "Nivel": "10"},
+                {"Habilidad": "JavaScript", "Nivel": "9"},
+                {"Habilidad": "TypeScript", "Nivel": "8"},
+                {"Habilidad": "JQuery", "Nivel": "7"}
             ]
         },
         {
             "Area": "Back-End",
             "Estilo": "list-group-item-primary fw-bold",
             "Lista":[
-                {"Habilidad": "C#"},
-                {"Habilidad": ".Net Core"},
-                {"Habilidad": "SQL Express"},
-                {"Habilidad": "Entity Framework Core"},
-                {"Habilidad": "MySql"},
-                {"Habilidad": "PHP"}
+                {"Habilidad": "C#", "Nivel": "10"},
+                {"Habilidad": ".Net Core", "Nivel": "10"},
+                {"Habilidad": "SQL Express", "Nivel": "7"},
+                {"Habilidad": "Entity Framework Core", "Nivel": "7"},
+                {"Habilidad": "MySql", "Nivel": "8"},
+                {"Habilidad": "PHP", "Nivel": "10"}
             ]
         },
         {
             "Area": "DevOps",
             "Estilo": "list-group-item-warning fw-bold",
             "Lista":[
-                {"Habilidad": "Microsoft Azure"},
-                {"Habilidad": "Docker"},
-                {"Habilidad": "Git"},
-                {"Habilidad": "GitHub"}
+                {"Habilidad": "Microsoft Azure", "Nivel": "8"},
+                {"Habilidad": "Docker", "Nivel": "6"},
+                {"Habilidad": "Git", "Nivel": "8"},
+                {"Habilidad": "GitHub", "Nivel": "8"}
             ]
         },
         {
             "Area": "Movil Apps",
             "Estilo": "list-group-item-success fw-bold",
             "Lista":[
-                {"Habilidad": "Xamarin Forms"}
+                {"Habilidad": "Xamarin Forms", "Nivel": "7"}
             ]
         }
     ],
