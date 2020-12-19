@@ -109,4 +109,7 @@ function Idioma(lenguaje){
   xhttp.send();
 }
 
-Idioma("ESP");
+const valores = window.location.search;
+var param = (valores=='')?"ESP":valores.replace('?', '');
+Idioma(param);
+console.log(param);
