@@ -24,6 +24,7 @@ function Idioma(lenguaje){
 
       var obj="";
       var skillsItem ="";
+      var redesSociales = "";
       var art ="";
       var presentacion =`<h5 class="card-title">${x.NombreCompleto}</h5>
                             <p class="card-text">${x.Cargo}</p>`;
@@ -47,6 +48,13 @@ function Idioma(lenguaje){
       for(var u = 0; u<x.DatosPersonales.length; u++) {
         presentacion +=`<p class="card-text mb-0">${x.DatosPersonales[u].item}</p>`;
       }
+
+      for(var c = 0; c < x.RedesSociales.length; c++) {
+        redesSociales +=`<a class="text-dark" href="${x.RedesSociales[c].Cuenta}"><i class="fab ${x.RedesSociales[c].Icono}"></i></a>`;
+      }
+
+      /* Listar las redes Sociales */
+      document.getElementById("Contactame").innerHTML = redesSociales;
 
       /* Listar los datos personales */
       document.getElementById("DatosPersonales-Esp").innerHTML = presentacion;
@@ -99,7 +107,7 @@ function Idioma(lenguaje){
                     <p class="card-text"><small class="text-muted">${x.Articulos[o].Fecha}</small></p>
                   </div>
                 </div>`;
-          }
+        }
 
         document.getElementById("Articulos-Esp").innerHTML = art;
     }

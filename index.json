@@ -17,9 +17,9 @@
         {"item":"Lima-Chorrillos"}
     ],
     "RedesSociales":[
-        {"Cuenta": "", "Icono" : "fa-linkedin fa-3x"},
+        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x"},
         {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x"},
-        {"Cuenta": "", "Icono" : "fa-github-square fa-3x"}
+        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x"}
     ],
     "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
     "Skills": [
@@ -179,9 +179,9 @@
         {"item":"Lima-Chorrillos"}
     ],
     "RedesSociales":[
-        {"Cuenta": "", "Icono" : "fa-linkedin fa-3x"},
+        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x"},
         {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x"},
-        {"Cuenta": "", "Icono" : "fa-github-square fa-3x"}
+        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x"}
     ],
     "Presentacion":"Hello, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
     "Skills": [
