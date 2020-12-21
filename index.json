@@ -1,4 +1,5 @@
-{"ESP" : {
+{
+    "ESP" : {
     "NavTitle":"Bienvenido",
     "NavItem1":"Presentación",
     "NavItem2":"Experiencia&nbsp;laboral",
@@ -21,7 +22,7 @@
         {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x"},
         {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x"}
     ],
-    "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
+    "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Ademas, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El area en el que estoy especializado es en el desarrollo de software, mi leguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafios. Como objetivo academico estoy estudiando Ingenieria de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a vistar mi GitHub.",
     "Skills": [
         {
             "Area": "Front-End",
@@ -322,5 +323,4 @@
         }
     ]
   }
-
 }
