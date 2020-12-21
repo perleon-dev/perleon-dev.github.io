@@ -33,8 +33,8 @@ function Idioma(lenguaje){
       document.getElementById("Item1").innerHTML = x.NavItem1;
       document.getElementById("Item2").innerHTML = x.NavItem2;
       document.getElementById("Item3").innerHTML = x.NavItem3;
-
-      document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage
+      console.log(x.TitleLanguage);
+      document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage;
 
       
       for(var b = 0; b<x.Idiomas.length; b++) {
@@ -76,7 +76,7 @@ function Idioma(lenguaje){
       /* Listar experiencia laboral */
       for(var i = 0; i < x.ExperienciaLaboral.length; i++) {
 
-          obj += `<div class="d-flex position-relative pt-3">
+          obj += `<div class="d-flex position-relative pt-5">
                       <img src="${x.ExperienciaLaboral[i].Img}" height="120" class="flex-shrink-0 me-3" alt="...">
                       <div>
                         <h5 class="mt-0">${x.ExperienciaLaboral[i].RazonSocial}</h5>
