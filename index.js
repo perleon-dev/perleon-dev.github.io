@@ -4,13 +4,13 @@ var Modal = function(obj){
   
   var item1="";
   for(var i = 0; i < obj.Labores.length; i++) {
-    item1 += `<span class="badge rounded-pill ${obj.Labores[i].Estilo}">${obj.Labores[i].Labor}</span>`;
+    item1 += `<span class="badge ${obj.Labores[i].Estilo}" style="margin-right:5px;">${obj.Labores[i].Labor}</span>`;
     document.getElementById("FormLabores").innerHTML = item1;
   }
 
   var item2="";
   for(var e = 0; e < obj.Tecnologias.length; e++) {
-    item2 += `<span class="badge rounded-pill ${obj.Tecnologias[e].Estilo}">${obj.Tecnologias[e].Labor}</span>`;
+    item2 += `<span class="badge ${obj.Tecnologias[e].Estilo}" style="margin-right:5px;">${obj.Tecnologias[e].Labor}</span>`;
     document.getElementById("FormTecnologias").innerHTML = item2;
   }
 }
@@ -36,29 +36,31 @@ function Idioma(lenguaje){
       document.getElementById("Item1").innerHTML = x.NavItem1;
       document.getElementById("Item2").innerHTML = x.NavItem2;
       document.getElementById("Item3").innerHTML = x.NavItem3;
-      console.log(x.TitleLanguage);
+
       document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage;
 
-      
+      /* Listar los idiomas para la web */
       for(var b = 0; b<x.Idiomas.length; b++) {
         var select = (lenguaje == x.Idiomas[b].Abreviatura)?"selected":"";
         optionIdioma +=`<option value="${x.Idiomas[b].Abreviatura}" ${select}>${x.Idiomas[b].Idioma}</option>`;
       }
-
+      /* Mostrar los idiomas para la web */
       document.getElementById("ListaIdioma").innerHTML = optionIdioma;
 
+      /* Listar los datos personales */
       for(var u = 0; u<x.DatosPersonales.length; u++) {
         presentacion +=`<p class="card-text mb-0">${x.DatosPersonales[u].item}</p>`;
       }
-
+      
+      /* Listar las redes Sociales */
       for(var c = 0; c < x.RedesSociales.length; c++) {
         redesSociales +=`<a class="text-dark" href="${x.RedesSociales[c].Cuenta}"><i class="fab ${x.RedesSociales[c].Icono} ${x.RedesSociales[c].Estilo}"></i></a>`;
       }
 
-      /* Listar las redes Sociales */
+      /* Mostrar las redes Sociales */
       document.getElementById("Contactame").innerHTML = redesSociales;
 
-      /* Listar los datos personales */
+      /* Mostar los datos personales */
       document.getElementById("DatosPersonales-Esp").innerHTML = presentacion;
 
       /* Mostrar la presentacion */
@@ -122,4 +124,3 @@ function Idioma(lenguaje){
 const valores = window.location.search;
 var param = (valores=='')?"ESP":valores.replace('?', '');
 Idioma(param);
-console.log(param);
