@@ -65,7 +65,7 @@ function Idioma(lenguaje){
       /* Listar las habilidades */
       for(var e = 0; e<x.Skills.length; e++) {
 
-        skillsItem +=`<ul class="list-group col-3">
+        skillsItem +=`<ul class="list-group col-6 col-md-4 col-lg-3">
                         <li class="list-group-item ${x.Skills[e].Estilo}">${x.Skills[e].Area}</li>`;
 
         for(var a = 0; a<x.Skills[e].Lista.length; a++) {

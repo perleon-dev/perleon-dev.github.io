@@ -40,20 +40,20 @@
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2 " data-bs-offset="0" tabindex="0">
 
         <div class="container d-flex mx-auto justify-content-end pt-4">
-          <form class="form-inline" style="width: 190px;">
+          <div class="form-inline" style="width: 190px;">
             <div class="form-group d-flex justify-content-around align-items-center">
               <label for="ListaIdioma" id="TitleLanguage" class=""></label>
               <select class="form-control form-control-sm" id="ListaIdioma" style="width: 100px;"  onchange="Idioma(this.value)"> 
               </select>
             </div>
-          </form>
+          </div>
         </div>
 
-        <div class="container d-flex row mx-auto">
-          <h4 id="presentacion" class="col-12 mb-3 mt-5">Presentación</h4>
-          <div class="d-flex">
-            <div class="pb-3">
-              <div class="card pt-5" style="width: 18rem;">
+        <div class="container d-flex row mx-auto"  id="presentacion">
+          <h4 class="col-12 mb-3 mt-5">Presentación</h4>
+          <div class="d-flex row mx-0 px-0">
+            <div class="pb-3 col mx-auto" style="max-width: 350px;">
+              <div class="card pt-5 mx-auto mx-md-0" style="width: 18rem;">
                 <img src="https://www.enriquedans.com/wp-content/uploads/2018/06/GitHub-Octocat.jpg" class="card-img-top" alt="Percy Luis Leon Lucas">
                 <div class="card-body" id="DatosPersonales-Esp">
 
@@ -63,8 +63,8 @@
                 </div>
               </div>
             </div>
-            <div class="px-2 d-flex row mx-0 px-0">
-              <p class="col-12" style="text-align: justify;" id="Presentacion-Esp">
+            <div class="px-2 d-flex row mx-0 px-0 col-12 col-lg ">
+              <p class="col-12 mx-0 px-0" style="text-align: justify;" id="Presentacion-Esp">
 
               </p>
 
@@ -75,18 +75,19 @@
             </div>
           </div>
         </div>
-        <div class="container d-flex row mx-auto">
-          <h4 id="experiencia" class="col-12 mb-3 mt-5">Experiencia laboral</h4>
+        <div class="container d-flex row mx-auto" id="experiencia">
+          <h4  class="col-12 mb-3 mt-5">Experiencia laboral</h4>
           <div id="FormExperiencia-Esp">
 
           </div>
         </div>
         
-        <div class="container d-flex row mx-auto">
-          <h4 id="articulos" class="mb-3 mt-5">Articulos</h4>
+        <div class="container d-flex row mx-auto" id="articulos">
+          <h4 class="mb-3 mt-5">Articulos</h4>
           <div>
             <p class="col-12" style="text-align: justify;">
-              En esta sección comparto un poco de mi experiencia y aprendisaje. Cada articulo contiene un breve resumen. De esta manera, trato de ser especifico con el contenido
+              En esta sección comparto un poco de mi experiencia y aprendisaje. Cada articulo contiene un breve resumen de lo que he aprendido. Ademas, trato de ser especifico con el contenido. 
+              Me gusta escribir, 
             </p>
             <div class="card-group" id="Articulos-Esp">
 
