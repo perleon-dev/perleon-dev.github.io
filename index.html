@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/8d7c95acc7.js" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet"/>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Percy Leon</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,8 +19,8 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                  <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-top">
-                  <span id="NavTitle"></span>
+                  <i class="fas fa-file-code fa-2x mr-2"></i>
+                  <span class="align-top" id="NavTitle"></span>
                 </a>
               </div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -42,7 +43,7 @@
         <div class="container d-flex mx-auto justify-content-end pt-4">
           <div class="form-inline" style="width: 210px;">
             <div class="form-group d-flex justify-content-around align-items-center">
-              <i class="fas fa-globe"></i>
+              <i class="fas fa-globe "></i>
               <label for="ListaIdioma" id="TitleLanguage" class=""></label>
               <select class="form-control form-control-sm" id="ListaIdioma" style="width: 100px;"  onchange="Idioma(this.value)"> 
               </select>
