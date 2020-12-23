@@ -52,7 +52,7 @@ function Idioma(lenguaje){
       }
 
       for(var c = 0; c < x.RedesSociales.length; c++) {
-        redesSociales +=`<a class="text-dark" href="${x.RedesSociales[c].Cuenta}"><i class="fab ${x.RedesSociales[c].Icono}"></i></a>`;
+        redesSociales +=`<a class="text-dark" href="${x.RedesSociales[c].Cuenta}"><i class="fab ${x.RedesSociales[c].Icono} ${x.RedesSociales[c].Estilo}"></i></a>`;
       }
 
       /* Listar las redes Sociales */
@@ -66,15 +66,15 @@ function Idioma(lenguaje){
 
       /* Listar las habilidades */
       for(var e = 0; e<x.Skills.length; e++) {
-
-        skillsItem +=`<ul class="list-group col-6 col-md-4 col-lg-4 col-xl-3 mt-2 mt-lg-0">
+        cl = (e == x.Skills.length-1)?"px-0":"";
+        skillsItem +=`<ul class="list-group col-6 col-md-4 col-lg-4 col-xl-3 mt-2 mt-lg-0 ${cl}">
                         <li class="list-group-item ${x.Skills[e].Estilo}">${x.Skills[e].Area}</li>`;
 
         for(var a = 0; a<x.Skills[e].Lista.length; a++) {
 
           skillsItem +=`<li class="list-group-item d-flex justify-content-between align-items-center px-2">
                           ${x.Skills[e].Lista[a].Habilidad}
-                          <span class="badge bg-primary rounded-pill">${x.Skills[e].Lista[a].Nivel}</span>
+                          <span class="badge bg-info rounded-pill">${x.Skills[e].Lista[a].Nivel}</span>
                         </li>`;
         }
 

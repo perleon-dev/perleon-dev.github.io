@@ -18,15 +18,15 @@
         {"item":"Lima-Chorrillos"}
     ],
     "RedesSociales":[
-        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x"},
-        {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x"},
-        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x"}
+        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
+        {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-danger"},
+        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
     ],
     "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Ademas, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El area en el que estoy especializado es en el desarrollo de software, mi leguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafios. Como objetivo academico estoy estudiando Ingenieria de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a vistar mi GitHub.",
     "Skills": [
         {
             "Area": "Front-End",
-            "Estilo": "list-group-item-info fw-bold",
+            "Estilo": "list-group-item-blue fw-bold",
             "Lista":[
                 {"Habilidad": "Blazor", "Nivel": "10"},
                 {"Habilidad": "Angular", "Nivel": "7"},
@@ -39,7 +39,7 @@
         },
         {
             "Area": "Back-End",
-            "Estilo": "list-group-item-primary fw-bold",
+            "Estilo": "list-group-item-blue fw-bold",
             "Lista":[
                 {"Habilidad": "C#", "Nivel": "10"},
                 {"Habilidad": ".Net Core", "Nivel": "10"},
@@ -51,7 +51,7 @@
         },
         {
             "Area": "DevOps",
-            "Estilo": "list-group-item-warning fw-bold",
+            "Estilo": "list-group-item-blue fw-bold",
             "Lista":[
                 {"Habilidad": "Microsoft Azure", "Nivel": "8"},
                 {"Habilidad": "Docker", "Nivel": "6"},
@@ -61,7 +61,7 @@
         },
         {
             "Area": "Movil Apps",
-            "Estilo": "list-group-item-success fw-bold",
+            "Estilo": "list-group-item-blue fw-bold",
             "Lista":[
                 {"Habilidad": "Xamarin Forms", "Nivel": "7"}
             ]
@@ -180,15 +180,15 @@
         {"item":"Lima-Chorrillos"}
     ],
     "RedesSociales":[
-        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x"},
-        {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x"},
-        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x"}
+        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
+        {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-blue"},
+        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-blue"}
     ],
     "Presentacion":"Hello, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
     "Skills": [
         {
             "Area": "Front-End",
-            "Estilo": "list-group-item-info fw-bold",
+            "Estilo": "bg-blue fw-bold",
             "Lista":[
                 {"Habilidad": "Blazor", "Nivel": "10"},
                 {"Habilidad": "Angular", "Nivel": "7"},

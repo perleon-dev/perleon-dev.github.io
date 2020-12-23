@@ -1,3 +1,12 @@
 .bg-blue{
     background: rgb(22, 95, 190);
 }
+
+.list-group-item-blue{
+    color: #ffffff;
+    background-color: #165fbe !important;
+}
+
+.text-blue{
+    color: #114c99 !important;
+}
