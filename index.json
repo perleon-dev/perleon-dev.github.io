@@ -22,7 +22,7 @@
         {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
         {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
     ],
-    "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
+    "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
     "Skills": [
         {
             "Area": "Front-End",
@@ -74,7 +74,7 @@
               "RazonSocial": "A&S Software Developers",
               "Tiempo": "4 años",
               "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
-              "Descripcion": "AyS es una empresa de desarrollo de software cuyo producto principal es el sistema control de colas. Aparte de ello, soy integrante de un equipo de 4 desarrolladores y como tal, parte de mi trabajo es desarrollar en conjunto con mis compañeros. Actualmente trabajo desarrollando requerimientos de software para los clientes de la empresa. Además, tengo la actitud proactiva de automatizar procesos, las principales tecnologías que utilizo son C#, Javascript, SQL Server, .NET Core, Blazor WebAssembly y Angular.",
+              "Descripcion": "A&S es una empresa de desarrollo de software cuyo producto principal es el sistema control de colas. Aparte de ello, soy integrante de un equipo conformado por 4 desarrolladores y como tal, parte de mi trabajo es desarrollar en conjunto con mis compañeros. Actualmente trabajo desarrollando requerimientos de software para los clientes de la empresa. Además, tengo la actitud proactiva de automatizar procesos, las principales tecnologías que utilizo son C#, Javascript, SQL Server, .NET Core, Blazor WebAssembly y Angular.",
               "Resumen":{
                       "Labores":[
                           {"Labor": "Lider tecnico", "Estilo": "bg-dark"},

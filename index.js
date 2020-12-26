@@ -100,7 +100,7 @@ function Idioma(lenguaje){
                         <div class="card-body">
                           <h5 class="card-title">${x.ExperienciaLaboral.Lista[i].RazonSocial}</h5>
                           <p class="card-text" style="text-align: justify;">${x.ExperienciaLaboral.Lista[i].Descripcion}</p>
-                          <p class="card-text"><button class="btn btn-primary btn-sm" data-bs-toggle="modal" onclick='Modal(${JSON.stringify(x.ExperienciaLaboral.Lista[i].Resumen)})' data-bs-target="#ModalResumenExperiancia">Resumen</button></p>
+                          <p class="card-text d-flex justify-content-between align-items-center"><button class="btn btn-primary btn-sm" data-bs-toggle="modal" onclick='Modal(${JSON.stringify(x.ExperienciaLaboral.Lista[i].Resumen)})' data-bs-target="#ModalResumenExperiancia">Resumen</button><small class="text-secondary">${x.ExperienciaLaboral.Lista[i].Tiempo}</small></p>
                         </div>
                       </div>
                     </div>
