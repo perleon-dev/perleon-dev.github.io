@@ -22,7 +22,7 @@
         {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
         {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
     ],
-    "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Ademas, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El area en el que estoy especializado es en el desarrollo de software, mi leguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafios. Como objetivo academico estoy estudiando Ingenieria de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a vistar mi GitHub.",
+    "Presentacion":"Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
     "Skills": [
         {
             "Area": "Front-End",
@@ -147,7 +147,7 @@
         {
             "Titulo": "Blazor WebAssembly",
             "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta característica se le conoce como Blazor Server. Por otro lado, Blazor WebAssembly descarga las DLLs del proyector para poder ejecutar la aplicaion en el navegador.",
             "Fecha": "10-12-2020"
         },
         {
