@@ -65,11 +65,11 @@ function Idioma(lenguaje){
 
       /* Mostrar la presentacion */
       document.getElementById("Presentacion-Esp").innerHTML = x.Presentacion;
-
+      
       /* Listar las habilidades */
       for(var e = 0; e<x.Skills.length; e++) {
         cl = (e == x.Skills.length-1)?"px-0":"";
-        skillsItem +=`<ul class="list-group col-6 col-md-4 col-lg-4 col-xl-3 mt-2 mt-lg-0 ${cl}">
+        skillsItem +=`<ul class="list-group col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-2 mt-lg-0 ${cl}">
                         <li class="list-group-item ${x.Skills[e].Estilo}">${x.Skills[e].Area}</li>`;
 
         for(var a = 0; a<x.Skills[e].Lista.length; a++) {
@@ -84,18 +84,27 @@ function Idioma(lenguaje){
       }
 
       document.getElementById("Skills-Esp").innerHTML = skillsItem;
+      
+      /* Mostrar experiencia laboral resumen */
+      document.getElementById("Resumen-ExpeLaboral").innerHTML = x.ExperienciaLaboral.Resumen;
 
       /* Listar experiencia laboral */
-      for(var i = 0; i < x.ExperienciaLaboral.length; i++) {
+      for(var i = 0; i < x.ExperienciaLaboral.Lista.length; i++) {
 
-          obj += `<div class="d-flex position-relative pt-5">
-                      <img src="${x.ExperienciaLaboral[i].Img}" height="120" class="flex-shrink-0 me-3" alt="...">
-                      <div>
-                        <h5 class="mt-0">${x.ExperienciaLaboral[i].RazonSocial}</h5>
-                        <p style="text-align: justify;">${x.ExperienciaLaboral[i].Descripcion}</p>
-                          <button class="btn btn-primary btn-sm" data-bs-toggle="modal" onclick='Modal(${JSON.stringify(x.ExperienciaLaboral[i].Resumen)})' data-bs-target="#ModalResumenExperiancia">Resumen</button>
+          obj += `<div class="card mb-3">
+                    <div class="row px-0 mx-0">
+                      <div class=" px-0 px-md-2 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="${x.ExperienciaLaboral.Lista[i].Img}">
                       </div>
-                    </div>`;
+                      <div class=" col-lg-9 col-md-8 px-0 mx-0">
+                        <div class="card-body">
+                          <h5 class="card-title">${x.ExperienciaLaboral.Lista[i].RazonSocial}</h5>
+                          <p class="card-text" style="text-align: justify;">${x.ExperienciaLaboral.Lista[i].Descripcion}</p>
+                          <p class="card-text"><button class="btn btn-primary btn-sm" data-bs-toggle="modal" onclick='Modal(${JSON.stringify(x.ExperienciaLaboral.Lista[i].Resumen)})' data-bs-target="#ModalResumenExperiancia">Resumen</button></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>`;
         }
 
       document.getElementById("FormExperiencia-Esp").innerHTML = obj;
