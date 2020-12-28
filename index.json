@@ -1,29 +1,32 @@
 {
     "ESP" : {
-    "NavTitle":"Bienvenido",
-    "NavItem1":"Presentación",
-    "NavItem2":"Experiencia&nbsp;laboral",
-    "NavItem3":"ArtÍculos",
-    "TitleLanguage":"Idioma",
-    "Idiomas": [
-        {"Idioma": "Español", "Abreviatura": "ESP"},
-        {"Idioma": "Ingles", "Abreviatura": "ENG"}
-    ],
-    "NombreCompleto": "Percy Luis Leon Lucas",
-    "Cargo": "Analista de desarrollo",
-    "DatosPersonales":[
-        {"item":"<b>Pais:</b> Perú"},
-        {"item":"<b>Edad:</b> 23 años"},
-        {"item":"<b>Email:</b> percyleon107@gmail.com"},
-        {"item":"Lima-Chorrillos"}
-    ],
-    "RedesSociales":[
-        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
-        {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
-        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
-    ],
-    "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
-    "Skills": [
+        "NavTitle":"Bienvenido",
+        "NavItem1":"Presentación",
+        "NavItem2":"Experiencia&nbsp;laboral",
+        "NavItem3":"ArtÍculos",
+        "TitleLanguage":"Idioma",
+        "TitlePresentacion":"Presentación",
+        "TitleExperienciaLaboral":"Experiencia laboral",
+        "TitleArticulos":"Artículos",
+        "Idiomas": [
+            {"Idioma": "Español", "Abreviatura": "ESP"},
+            {"Idioma": "Ingles", "Abreviatura": "ENG"}
+        ],
+        "NombreCompleto": "Percy Luis Leon Lucas",
+        "Cargo": "Analista de desarrollo",
+        "DatosPersonales":[
+            {"item":"<b>Pais:</b> Perú"},
+            {"item":"<b>Edad:</b> 23 años"},
+            {"item":"<b>Email:</b> percyleon107@gmail.com"},
+            {"item":"Lima-Chorrillos"}
+        ],
+        "RedesSociales":[
+            {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
+            {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
+            {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
+        ],
+        "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
+        "Skills": [
         {
             "Area": "Front-End",
             "Estilo": "list-group-item-blue fw-bold",
@@ -66,8 +69,8 @@
                 {"Habilidad": "Xamarin Forms", "Nivel": "7"}
             ]
         }
-    ],
-    "ExperienciaLaboral": {
+        ],
+        "ExperienciaLaboral": {
         "Resumen":"Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales he utilizado <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
         "Lista":[
             {
@@ -142,27 +145,30 @@
                   }
             }
           ]
-    },
-    "Articulos": [
-        {
-            "Titulo": "Blazor WebAssembly",
-            "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta característica se le conoce como Blazor Server. Por otro lado, Blazor WebAssembly descarga las DLLs del proyector para poder ejecutar la aplicaion en el navegador.",
-            "Fecha": "10-12-2020"
         },
-        {
-            "Titulo": "Docker",
-            "Imagen": "https://dev-to-uploads.s3.amazonaws.com/i/xblph46ykhw28jxq5lp6.PNG",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
-            "Fecha": "10-12-2020"
-        },
-        {
-            "Titulo": "Golang",
-            "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
-            "Fecha": "10-12-2020"
+        "Articulos": {
+            "Descripcion":"En esta sección comparto un poco de mi experiencia y aprendizaje. Cada articulo contiene un breve resumen de lo que he aprendido. Además, trato de ser especifico con el contenido. ",
+            "Lista":[
+                {
+                    "Titulo": "Blazor WebAssembly",
+                    "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
+                    "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta característica se le conoce como Blazor Server. Por otro lado, Blazor WebAssembly descarga las DLLs del proyector para poder ejecutar la aplicaion en el navegador.",
+                    "Fecha": "10-12-2020"
+                },
+                {
+                    "Titulo": "Docker",
+                    "Imagen": "https://dev-to-uploads.s3.amazonaws.com/i/xblph46ykhw28jxq5lp6.PNG",
+                    "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+                    "Fecha": "10-12-2020"
+                },
+                {
+                    "Titulo": "Golang",
+                    "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
+                    "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+                    "Fecha": "10-12-2020"
+                }
+            ]
         }
-    ]
   },
   "ENG": {
     "NavTitle":"Welcome",

@@ -36,6 +36,10 @@ function Idioma(lenguaje){
       document.getElementById("Item1").innerHTML = x.NavItem1;
       document.getElementById("Item2").innerHTML = x.NavItem2;
       document.getElementById("Item3").innerHTML = x.NavItem3;
+      document.getElementById("Title-Presentacion").innerHTML = x.TitlePresentacion;
+      document.getElementById("Title-ExperienciaLaboral").innerHTML = x.TitleExperienciaLaboral;
+      document.getElementById("Title-Articulos").innerHTML = x.TitleArticulos;
+
 
       document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage;
 
@@ -109,15 +113,16 @@ function Idioma(lenguaje){
 
       document.getElementById("FormExperiencia-Esp").innerHTML = obj;
 
+      document.getElementById("Descripcion-Articulos").innerHTML = x.Articulos.Descripcion;
       /* Listar Articulos */
 
-      for(var o = 0; o < x.Articulos.length; o++) {
+      for(var o = 0; o < x.Articulos.Lista.length; o++) {
           art +=`<div class="card">
-                  <img src="${x.Articulos[o].Imagen}" class="card-img-top" alt="...">
+                  <img src="${x.Articulos.Lista[o].Imagen}" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">${x.Articulos[o].Titulo}</h5>
-                    <p class="card-text" style="text-align: justify;">${x.Articulos[o].Contenido}</p>
-                    <p class="card-text"><small class="text-muted">${x.Articulos[o].Fecha}</small></p>
+                    <h5 class="card-title">${x.Articulos.Lista[o].Titulo}</h5>
+                    <p class="card-text" style="text-align: justify;">${x.Articulos.Lista[o].Contenido}</p>
+                    <p class="card-text"><small class="text-muted">${x.Articulos.Lista[o].Fecha}</small></p>
                   </div>
                 </div>`;
         }
