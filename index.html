@@ -1,150 +1,197 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/8d7c95acc7.js" crossorigin="anonymous"></script>
-    <link href="index.css" rel="stylesheet"/>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Percy Luis Leon Lucas</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-blue sticky-top">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <i class="fas fa-child fa-2x mr-2"></i>
-                  <span class="align-top" id="NavTitle"></span>
-                </a>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/8d7c95acc7.js" crossorigin="anonymous"></script>
+  <link href="index.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>Percy Luis Leon Lucas</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-blue sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-child fa-2x mr-2"></i>
+            <span class="align-top" id="NavTitle"></span>
+          </a>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#presentacion" id="Item1"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia" id="Item2"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articulos" id="Item3"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mb-5" data-bs-spy="scroll" data-bs-target="#navbar-example2 " data-bs-offset="0" tabindex="0">
+
+    <div class="container d-flex mx-auto justify-content-end pt-4">
+      <div class="form-inline" style="width: 210px;">
+        <div class="form-group d-flex justify-content-around align-items-center">
+          <i class="fas fa-globe "></i>
+          <label for="ListaIdioma" id="TitleLanguage" class=""></label>
+          <select class="form-control form-control-sm" id="ListaIdioma" style="width: 100px;" onchange="Idioma(this.value)">
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex row mx-auto" id="presentacion">
+      <h4 class="col-12 mb-3 mt-5 py-3" id="Title-Presentacion"></h4>
+      <div class="d-flex row mx-0 px-0">
+        <div class="pb-3 col mx-auto" style="max-width: 350px;">
+          <div class="card pt-5 mx-auto mx-md-0" style="width: 18rem;">
+            <img src="https://www.enriquedans.com/wp-content/uploads/2018/06/GitHub-Octocat.jpg" class="card-img-top"
+              alt="Percy Luis Leon Lucas">
+            <div class="card-body" id="DatosPersonales-Esp">
+
+            </div>
+            <div id="Contactame" class="d-flex justify-content-around align-items-center pb-3">
+
+            </div>
+          </div>
+        </div>
+        <div class="px-2 d-flex align-content-start row mx-0 px-0 col-12 col-lg ">
+          <p class="col-12 mx-0 px-0" style="text-align: justify;" id="Presentacion-Esp">
+
+          </p>
+          <h5 class="my-0 my-4 px-0">Situación actual</h5>
+          <div class="col-12 row mx-0 px-0 d-flex justify-content-between">
+            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
+              <div class="card-header bg-blue fw-bold">Hobby</div>
+              <div class="card-body">
+                <h5 class="card-title">Investigar</h5>
+                <p class="card-text">Me gusta la tecnologia, en mis ratos libres me dedico a la investigación, mi tema
+                  favorito es el Machine Learning. </p>
               </div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#presentacion" id="Item1"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experiencia" id="Item2"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#articulos" id="Item3"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div class="mb-5" data-bs-spy="scroll" data-bs-target="#navbar-example2 " data-bs-offset="0" tabindex="0">
-
-        <div class="container d-flex mx-auto justify-content-end pt-4">
-          <div class="form-inline" style="width: 210px;">
-            <div class="form-group d-flex justify-content-around align-items-center">
-              <i class="fas fa-globe "></i>
-              <label for="ListaIdioma" id="TitleLanguage" class=""></label>
-              <select class="form-control form-control-sm" id="ListaIdioma" style="width: 100px;"  onchange="Idioma(this.value)"> 
-              </select>
             </div>
-          </div>
-        </div>
-
-        <div class="container d-flex row mx-auto"  id="presentacion">
-          <h4 class="col-12 mb-3 mt-5 py-3" id="Title-Presentacion"></h4>
-          <div class="d-flex row mx-0 px-0">
-            <div class="pb-3 col mx-auto" style="max-width: 350px;">
-              <div class="card pt-5 mx-auto mx-md-0" style="width: 18rem;">
-                <img src="https://www.enriquedans.com/wp-content/uploads/2018/06/GitHub-Octocat.jpg" class="card-img-top" alt="Percy Luis Leon Lucas">
-                <div class="card-body" id="DatosPersonales-Esp">
-
-                </div>
-                <div id="Contactame" class="d-flex justify-content-around align-items-center pb-3" >
-                  
-                </div>
+            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
+              <div class="card-header bg-blue fw-bold">Estado academico</div>
+              <div class="card-body">
+                <h5 class="card-title">Ingenieria de sistemas</h5>
+                <p class="card-text">Soy Tecnico, estudie la carrera Computación e Informatica. Me guta mi trabajo asi
+                  que decidi continuar con la carrera. </p>
               </div>
             </div>
-            <div class="px-2 d-flex row mx-0 px-0 col-12 col-lg ">
-              <p class="col-12 mx-0 px-0" style="text-align: justify;" id="Presentacion-Esp">
-
-              </p>
-
-              <div class="col-12 row mx-0 px-0" id="Skills-Esp">
-           
+            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
+              <div class="card-header bg-blue fw-bold">Estado laboral</div>
+              <div class="card-body">
+                <h5 class="card-title">Analista de desarrollo</h5>
+                <p class="card-text">Actualmente me dedico al desarrollo Web utilizo diversas tecnologias. Por ejemplo,
+                  Microsoft Azure, SignalR, .Net Core, Entity Framework </p>
               </div>
-              
             </div>
           </div>
-        </div>
-        <div class="container d-flex row mx-auto" id="experiencia">
-          <h4  class="col-12 mb-3 mt-5 py-3"  id="Title-ExperienciaLaboral"></h4>
-          
-          <div  class="mb-4" style="text-align: justify;" id="Resumen-ExpeLaboral">
-            
-          </div>
 
-          <div id="FormExperiencia-Esp">
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex row mx-auto" id="presentacion">
+      <h4 class="col-12 mb-3 mt-5 py-3" id="">Habilidades</h4>
+      <div class="col-12 row mx-0 px-2" id="Skills-Esp">
 
-          </div>
-        </div>
-        
-        <div class="container d-flex row mx-auto" id="articulos">
-          <h4 class="mb-3 mt-5  py-3" id="Title-Articulos"></h4>
-          <div>
-            <p class="col-12" style="text-align: justify;" id="Descripcion-Articulos">
-            </p>
-            <div class="card-group" id="Articulos-Esp">
+      </div>
+    </div>
 
-            </div>
-          </div>
-        </div>
-        
-        <div class="container row mx-auto mt-5">
-          <div class="alert alert-light border rounded" role="alert">
-            <h4 class="alert-heading mb-3">Hasta luego, espero te guste este mensaje</h4>
-            <p style="text-align: justify;">Las malas practicas se convierten en malas costumbres, las malas costumbres traen malos hábitos y los malos hábitos nos hacen cometer errores.
-              No se puede cambiar el pasado, sin embargo, si podemos cambiar nuestro futuro. Las buenas practicas se convierten en buenas costumbres, las buenas costumbres traen buenos hábitos y los buenos hábitos nos hacer mejor persona.</p>
-            <!-- <p>La necedad no ciega De todo podemos aprender, y de lo errores muchas veces aprendemos más. Lo que es seguro es que nunca debemos de perder el deseo de saber más.</p>-->
-            <hr>
-            <p class="mb-0">Nunca pares de aprender.</p>
-          </div>
-        </div>
+
+    <div class="container d-flex row mx-auto" id="experiencia">
+      <h4 class="col-12 mb-3 mt-5 py-3" id="Title-ExperienciaLaboral"></h4>
+
+      <div class="mb-4" style="text-align: justify;" id="Resumen-ExpeLaboral">
 
       </div>
 
-      <footer class=" bg-light text-center py-2 ">
-        <p class="m-0 p-0">Pregúntame lo que sea estoy dispuesto a ayudarte <a href="https://github.com/PercyLeon123" class="text-dark fw-bold text-decoration-none">Percy Leon</a>, by <a href="https://twitter.com/mdo" class="text-dark fw-bold text-decoration-none">@pleon</a>.</p>
-      </footer>
+      <div id="FormExperiencia-Esp">
 
+      </div>
+    </div>
 
-      <!-- Modal ModalResumenExperiancia -->
-      <div class="modal fade" id="ModalResumenExperiancia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="">Resumen</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="fw-bold mt-1 mb-2 text-secondary">Labores</div>
-              <div class="d-fex justify-content-around" id="FormLabores">
+    <div class="container d-flex row mx-auto" id="articulos">
+      <h4 class="mb-3 mt-5  py-3" id="Title-Articulos"></h4>
+      <div>
+        <p class="col-12" style="text-align: justify;" id="Descripcion-Articulos">
+        </p>
+        <div class="card-group" id="Articulos-Esp">
 
-              </div>
-              <div class="fw-bold mt-3 mb-2 text-secondary">Tecnologias</div>
-              <div class="d-fex justify-content-between" id="FormTecnologias">
-
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
         </div>
       </div>
+    </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <div class="container row mx-auto mt-5">
+      <h4 class="mb-3 mt-5 py-3">Despedida</h4>
+      <div class="col-12">
+        <div class="alert alert-light border rounded" role="alert">
+          <h4 class="alert-heading mb-3">Hasta luego, espero te guste mi mensaje</h4>
+          <p style="text-align: justify;">Las malas practicas se convierten en malas costumbres, las malas costumbres
+            traen malos hábitos y los malos hábitos nos hacen cometer errores.
+            No se puede cambiar el pasado, sin embargo, si podemos cambiar nuestro futuro. Las buenas practicas se
+            convierten en buenas costumbres, las buenas costumbres traen buenos hábitos y los buenos hábitos nos hacen
+            mejor persona.</p>
+          <hr>
+          <p class="mb-0">Nunca pares de aprender.</p>
+        </div>
+      </div>
+    </div>
 
-    <script src="index.js"></script>
-  </body>
+  </div>
+
+  <footer class=" bg-light text-center py-2 ">
+    <p class="m-0 p-0">Pregúntame lo que sea estoy dispuesto a ayudarte <a href="https://github.com/PercyLeon123"
+        class="text-dark fw-bold text-decoration-none">Percy Leon</a>, by <a href="https://twitter.com/mdo"
+        class="text-dark fw-bold text-decoration-none">@pleon</a>.</p>
+  </footer>
+
+
+  <!-- Modal ModalResumenExperiancia -->
+  <div class="modal fade" id="ModalResumenExperiancia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Resumen</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="fw-bold mt-1 mb-2 text-secondary">Labores</div>
+          <div class="d-fex justify-content-around" id="FormLabores">
+
+          </div>
+          <div class="fw-bold mt-3 mb-2 text-secondary">Tecnologias</div>
+          <div class="d-fex justify-content-between" id="FormTecnologias">
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
+</body>
+
 </html>

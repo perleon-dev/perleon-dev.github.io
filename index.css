@@ -1,5 +1,6 @@
 .bg-blue{
-    background: rgb(22, 95, 190);
+    color: #ffffff;
+    background: rgb(22, 95, 190) !important;
 }
 
 .list-group-item-blue{

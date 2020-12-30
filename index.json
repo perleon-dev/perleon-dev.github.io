@@ -13,7 +13,7 @@
             {"Idioma": "Ingles", "Abreviatura": "ENG"}
         ],
         "NombreCompleto": "Percy Luis Leon Lucas",
-        "Cargo": "Analista de desarrollo",
+        "Cargo": "Desarrollador full stack",
         "DatosPersonales":[
             {"item":"<b>Pais:</b> Perú"},
             {"item":"<b>Edad:</b> 23 años"},
@@ -27,48 +27,48 @@
         ],
         "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
         "Skills": [
-        {
-            "Area": "Front-End",
-            "Estilo": "list-group-item-blue fw-bold",
-            "Lista":[
-                {"Habilidad": "Blazor", "Nivel": "10"},
-                {"Habilidad": "Angular", "Nivel": "7"},
-                {"Habilidad": "HTML", "Nivel": "10"},
-                {"Habilidad": "CSS", "Nivel": "10"},
-                {"Habilidad": "JavaScript", "Nivel": "9"},
-                {"Habilidad": "TypeScript", "Nivel": "8"},
-                {"Habilidad": "JQuery", "Nivel": "7"}
-            ]
-        },
-        {
-            "Area": "Back-End",
-            "Estilo": "list-group-item-blue fw-bold",
-            "Lista":[
-                {"Habilidad": "C#", "Nivel": "10"},
-                {"Habilidad": ".Net Core", "Nivel": "10"},
-                {"Habilidad": "SQL Express", "Nivel": "7"},
-                {"Habilidad": "Entity Framework Core", "Nivel": "7"},
-                {"Habilidad": "MySql", "Nivel": "8"},
-                {"Habilidad": "PHP", "Nivel": "10"}
-            ]
-        },
-        {
-            "Area": "DevOps",
-            "Estilo": "list-group-item-blue fw-bold",
-            "Lista":[
-                {"Habilidad": "Microsoft Azure", "Nivel": "8"},
-                {"Habilidad": "Docker", "Nivel": "6"},
-                {"Habilidad": "Git", "Nivel": "8"},
-                {"Habilidad": "GitHub", "Nivel": "8"}
-            ]
-        },
-        {
-            "Area": "Movil Apps",
-            "Estilo": "list-group-item-blue fw-bold",
-            "Lista":[
-                {"Habilidad": "Xamarin Forms", "Nivel": "7"}
-            ]
-        }
+            {
+                "Area": "Front-End",
+                "Estilo": "list-group-item-blue fw-bold",
+                "Lista":[
+                    {"Habilidad": "Blazor", "Nivel": "10"},
+                    {"Habilidad": "Angular", "Nivel": "7"},
+                    {"Habilidad": "HTML", "Nivel": "10"},
+                    {"Habilidad": "CSS", "Nivel": "10"},
+                    {"Habilidad": "JavaScript", "Nivel": "9"},
+                    {"Habilidad": "TypeScript", "Nivel": "8"},
+                    {"Habilidad": "JQuery", "Nivel": "7"}
+                ]
+            },
+            {
+                "Area": "Back-End",
+                "Estilo": "list-group-item-blue fw-bold",
+                "Lista":[
+                    {"Habilidad": "C#", "Nivel": "10"},
+                    {"Habilidad": ".Net Core", "Nivel": "10"},
+                    {"Habilidad": "SQL Express", "Nivel": "7"},
+                    {"Habilidad": "Entity Framework Core", "Nivel": "7"},
+                    {"Habilidad": "MySql", "Nivel": "8"},
+                    {"Habilidad": "PHP", "Nivel": "10"}
+                ]
+            },
+            {
+                "Area": "DevOps",
+                "Estilo": "list-group-item-blue fw-bold",
+                "Lista":[
+                    {"Habilidad": "Microsoft Azure", "Nivel": "8"},
+                    {"Habilidad": "Docker", "Nivel": "6"},
+                    {"Habilidad": "Git", "Nivel": "8"},
+                    {"Habilidad": "GitHub", "Nivel": "8"}
+                ]
+            },
+            {
+                "Area": "Movil Apps",
+                "Estilo": "list-group-item-blue fw-bold",
+                "Lista":[
+                    {"Habilidad": "Xamarin Forms", "Nivel": "7"}
+                ]
+            }
         ],
         "ExperienciaLaboral": {
         "Resumen":"Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales he utilizado <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
@@ -195,6 +195,19 @@
     ],
     "Presentacion":"Hello, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
     "Skills": [
+        {
+            "Area": "Personal",
+            "Estilo": "bg-blue fw-bold",
+            "Lista":[
+                {"Habilidad": "Autodidacta", "Nivel": "10"},
+                {"Habilidad": "Responsable", "Nivel": "10"},
+                {"Habilidad": "Puntualidad", "Nivel": "10"},
+                {"Habilidad": "Comunicación efectiva", "Nivel": "10"},
+                {"Habilidad": "JavaScript", "Nivel": "9"},
+                {"Habilidad": "TypeScript", "Nivel": "8"},
+                {"Habilidad": "JQuery", "Nivel": "7"}
+            ]
+        },
         {
             "Area": "Front-End",
             "Estilo": "bg-blue fw-bold",
