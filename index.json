@@ -152,7 +152,7 @@
                 {
                     "Titulo": "Blazor WebAssembly",
                     "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
-                    "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta característica se le conoce como Blazor Server. Por otro lado, Blazor WebAssembly descarga las DLLs del proyector para poder ejecutar la aplicaion en el navegador.",
+                    "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
                     "Fecha": "10-12-2020"
                 },
                 {
