@@ -158,7 +158,7 @@
                 {
                     "Titulo": "Docker",
                     "Imagen": "https://dev-to-uploads.s3.amazonaws.com/i/xblph46ykhw28jxq5lp6.PNG",
-                    "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+                    "Contenido": "Docker es una tecnología que permite ejecutar un proceso de una manera totalmente aislada de los procesos de la maquina, además, de definir todas las dependencias del proceso a ejecutar. Por ejemplo, Docker permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas conocidas como contenedores que incluye todo lo necesario para que el software se ejecute.Con Docker puedes implementar y ajustar la escala de aplicaciones de manera rápida y en cualquier entorno.",
                     "Fecha": "10-12-2020"
                 },
                 {
