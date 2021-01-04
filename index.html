@@ -32,17 +32,23 @@
             <a class="nav-link active" aria-current="page" href="#presentacion" id="Item1"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experiencia" id="Item2"></a>
+            <a class="nav-link" href="#habilidades" id="Item2"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#articulos" id="Item3"></a>
+            <a class="nav-link" href="#experiencia" id="Item3"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articulos" id="Item4"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#despedida" id="Item5"></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="mb-5" data-bs-spy="scroll" data-bs-target="#navbar-example2 " data-bs-offset="0">
+  <div class="mb-5" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0">
 
     <div class="container d-flex mx-auto justify-content-end pt-4">
       <div class="form-inline" style="width: 210px;">
@@ -66,7 +72,7 @@
             <div class="card-body" id="DatosPersonales-Esp">
 
             </div>
-            <div id="Contactame" class="d-flex justify-content-around align-items-center pb-3">
+            <div id="Contactame" class="d-flex justify-content-around align-items-center mb-4 mt-2">
 
             </div>
           </div>
@@ -75,47 +81,16 @@
           <p class="col-12 mx-0 px-0" style="text-align: justify;" id="Presentacion-Esp">
 
           </p>
-          <h5 class="my-0 my-4 px-0">Situación actual</h5>
-          <div class="col-12 row mx-0 px-0 d-flex justify-content-between">
-            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
-              <div class="card-header bg-blue fw-bold">Hobby</div>
-              <div class="card-body">
-                <h5 class="card-title">Investigar</h5>
-                <p class="card-text"  style="text-align: justify;">Me gusta la tecnologia, en mis ratos libres me dedico a la investigación, mi tema
-                  favorito es el Machine Learning. </p>
-              </div>
-            </div>
-            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
-              <div class="card-header bg-blue fw-bold">Pasatiempo</div>
-              <div class="card-body">
-                <h5 class="card-title">Investigar</h5>
-                <p class="card-text"  style="text-align: justify;">Me gusta la tecnologia, en mis ratos libres me dedico a la investigación, mi tema
-                  favorito es el Machine Learning. </p>
-              </div>
-            </div>
-            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
-              <div class="card-header bg-blue fw-bold">Estado academico</div>
-              <div class="card-body">
-                <h5 class="card-title">Ingenieria de sistemas</h5>
-                <p class="card-text"  style="text-align: justify;">Soy Tecnico, estudie la carrera Computación e Informatica. Me guta mi trabajo asi
-                  que decidi continuar con la carrera. </p>
-              </div>
-            </div>
-            <div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
-              <div class="card-header bg-blue fw-bold">Estado laboral</div>
-              <div class="card-body">
-                <h5 class="card-title">Analista de desarrollo</h5>
-                <p class="card-text"  style="text-align: justify;">Actualmente me dedico al desarrollo Web utilizo diversas tecnologias. Por ejemplo,
-                  Microsoft Azure, SignalR, .Net Core, Entity Framework </p>
-              </div>
-            </div>
+          <h5 class="my-0 my-4 px-0" id="TitleSituacion"></h5>
+          <div class="col-12 row mx-0 px-0 d-flex justify-content-between" id="SitucionActual">
+
           </div>
 
         </div>
       </div>
     </div>
-    <div class="container d-flex row mx-auto" id="presentacion">
-      <h4 class="col-12 mb-3 mt-5 py-3" id="">Habilidades</h4>
+    <div class="container d-flex row mx-auto" id="habilidades">
+      <h4 class="col-12 mb-3 mt-5 py-3" id="TitleHabilidades"></h4>
       <div class="col-12 row mx-0 px-2" id="Skills-Esp">
 
       </div>
@@ -145,10 +120,10 @@
       </div>
     </div>
 
-    <div class="container row mx-auto mt-5">
-      <h4 class="mb-3 mt-5 py-3">Despedida</h4>
+    <div class="container row mx-auto mt-5" id="despedida">
+      <h4 class="mb-3 mt-5 py-3" id="TitleDespedida"></h4>
       <div class="col-12">
-        <div class="alert alert-light border rounded" role="alert">
+        <div class="alert border rounded" role="alert">
           <h4 class="alert-heading mb-3">Hasta luego, espero te guste mi mensaje</h4>
           <p style="text-align: justify;">Las malas practicas se convierten en malas costumbres, las malas costumbres
             traen malos hábitos y los malos hábitos nos hacen cometer errores.
@@ -176,15 +151,15 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="">Resumen</h5>
+          <h5 class="modal-title" id="TitleModal"></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="fw-bold mt-1 mb-2 text-secondary">Labores</div>
+          <div class="fw-bold mt-1 mb-2 text-secondary" id="TitleLabores"></div>
           <div class="d-fex justify-content-around" id="FormLabores">
 
           </div>
-          <div class="fw-bold mt-3 mb-2 text-secondary">Tecnologias</div>
+          <div class="fw-bold mt-3 mb-2 text-secondary" id="TitleTecnologias"></div>
           <div class="d-fex justify-content-between" id="FormTecnologias">
 
           </div>

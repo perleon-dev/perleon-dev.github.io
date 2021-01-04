@@ -2,12 +2,20 @@
     "ESP" : {
         "NavTitle":"Bienvenido",
         "NavItem1":"Presentación",
-        "NavItem2":"Experiencia&nbsp;laboral",
-        "NavItem3":"ArtÍculos",
+        "NavItem2":"Habilidades",
+        "NavItem3":"Experiencia&nbsp;laboral",
+        "NavItem4":"ArtÍculos",
+        "NavItem5":"Despedida",
         "TitleLanguage":"Idioma",
         "TitlePresentacion":"Presentación",
-        "TitleExperienciaLaboral":"Experiencia laboral",
-        "TitleArticulos":"Artículos",
+        "TitleSituacion": "Situación actual",
+        "TitleHabilidades": "Habilidades",
+        "TitleDespedida": "Despedida",
+        "TitleExperienciaLaboral": "Experiencia laboral",
+        "TitleArticulos": "Artículos",
+        "TitleModal": "Resumen",
+        "TitleLabores": "Labores",
+        "TitleTecnologias": "Tecnologias",
         "Idiomas": [
             {"Idioma": "Español", "Abreviatura": "ESP"},
             {"Idioma": "Ingles", "Abreviatura": "ENG"}
@@ -26,6 +34,28 @@
             {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
         ],
         "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas. Además, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el desarrollo de software, mi lenguaje favorito es C#, sin embargo, conozco otros lenguajes. He trabajado con arquitectura monolítica y arquitectura de microservicios. Me gustan los retos y amo los desafíos. Como objetivo académico estoy estudiando Ingeniería de sistemas y como objetivo personal soy fundador de la empresa CULLQUI. Te invito a visitar mi GitHub.",
+        "SitucionActual":[
+            {
+                "Header": "Hobby",
+                "Titulo": "Investigar",
+                "Descripcion": "Me gusta la tecnologia, en mis ratos libres me dedico a la investigación, mi tema favorito es el Machine Learning."
+            },
+            {
+                "Header": "Pasatiempo",
+                "Titulo": "Proyectos",
+                "Descripcion": "Me gustan los retos, actualmente participo en 2 proyectos CULLQUI y FastService"
+            },
+            {
+                "Header": "Estado academico",
+                "Titulo": "Ingenieria de sistemas",
+                "Descripcion": "Soy Tecnico, estudie la carrera Computación e Informatica. Me guta mi trabajo asi que decidi continuar con la carrera."
+            },
+            {
+                "Header": "Estado laboral",
+                "Titulo": "Analista de desarrollo",
+                "Descripcion": "Actualmente me dedico al desarrollo Web utilizo diversas tecnologias. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework."
+            }
+        ],
         "Skills": [
             {
                 "Area": "Front-End",

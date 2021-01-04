@@ -31,14 +31,23 @@ function Idioma(lenguaje){
       var presentacion =`<h5 class="card-title">${x.NombreCompleto}</h5>
                             <p class="card-text">${x.Cargo}</p>`;
       var optionIdioma = "";
+      var campoEstado = "";
 
       document.getElementById("NavTitle").innerHTML = x.NavTitle;
       document.getElementById("Item1").innerHTML = x.NavItem1;
       document.getElementById("Item2").innerHTML = x.NavItem2;
       document.getElementById("Item3").innerHTML = x.NavItem3;
+      document.getElementById("Item4").innerHTML = x.NavItem4;
+      document.getElementById("Item5").innerHTML = x.NavItem5;
       document.getElementById("Title-Presentacion").innerHTML = x.TitlePresentacion;
       document.getElementById("Title-ExperienciaLaboral").innerHTML = x.TitleExperienciaLaboral;
       document.getElementById("Title-Articulos").innerHTML = x.TitleArticulos;
+      document.getElementById("TitleSituacion").innerHTML = x.TitleSituacion;
+      document.getElementById("TitleHabilidades").innerHTML = x.TitleHabilidades;
+      document.getElementById("TitleDespedida").innerHTML = x.TitleDespedida;
+      document.getElementById("TitleModal").innerHTML = x.TitleModal;
+      document.getElementById("TitleLabores").innerHTML = x.TitleLabores;
+      document.getElementById("TitleTecnologias").innerHTML = x.TitleTecnologias;
 
 
       document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage;
@@ -70,6 +79,19 @@ function Idioma(lenguaje){
       /* Mostrar la presentacion */
       document.getElementById("Presentacion-Esp").innerHTML = x.Presentacion;
       
+      /* Listar Estado */
+      for(var li = 0; li<x.SitucionActual.length; li++){
+        campoEstado +=`<div class="card text-dark mb-3 px-0" style="max-width: 18rem;">
+                        <div class="card-header bg-blue fw-bold">${x.SitucionActual[li].Header}</div>
+                        <div class="card-body">
+                          <h5 class="card-title">${x.SitucionActual[li].Titulo}</h5>
+                          <p class="card-text"  style="text-align: justify;">${x.SitucionActual[li].Descripcion}</p>
+                        </div>
+                     </div>`;
+      }
+
+      document.getElementById("SitucionActual").innerHTML = campoEstado;
+
       /* Listar las habilidades */
       for(var e = 0; e<x.Skills.length; e++) {
         cl = (e == x.Skills.length-1)?"mx-0":"";
