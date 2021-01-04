@@ -94,8 +94,8 @@ function Idioma(lenguaje){
 
       /* Listar las habilidades */
       for(var e = 0; e<x.Skills.length; e++) {
-        cl = (e == x.Skills.length-1)?"mx-0":"";
-        skillsItem +=`<ul class="list-group col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-3 mt-lg-2 ${cl}">
+        cl = (e == x.Skills.length-1)?"mx-0 px-0":"mx-0 px-0";
+        skillsItem +=`<ul class="list-group col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-3 mt-lg-2 ${cl}" style="max-width: 19rem;">
                         <li class="list-group-item ${x.Skills[e].Estilo}">${x.Skills[e].Area}</li>`;
 
         for(var a = 0; a<x.Skills[e].Lista.length; a++) {
@@ -150,7 +150,8 @@ function Idioma(lenguaje){
         }
 
       document.getElementById("Articulos-Esp").innerHTML = art;
-
+      
+      /* Mostrar contenido del footer */
       document.getElementById("Footer").innerHTML = x.Footer;
     }
   };

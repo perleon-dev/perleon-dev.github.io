@@ -75,7 +75,7 @@
                 "Estilo": "list-group-item-blue fw-bold",
                 "Lista":[
                     {"Habilidad": "C#", "Nivel": "10"},
-                    {"Habilidad": ".Net Core", "Nivel": "10"},
+                    {"Habilidad": ".Net Core", "Nivel": "8"},
                     {"Habilidad": "SQL Express", "Nivel": "7"},
                     {"Habilidad": "Entity Framework Core", "Nivel": "7"},
                     {"Habilidad": "MySql", "Nivel": "8"},
@@ -86,7 +86,7 @@
                 "Area": "DevOps",
                 "Estilo": "list-group-item-blue fw-bold",
                 "Lista":[
-                    {"Habilidad": "Microsoft Azure", "Nivel": "8"},
+                    {"Habilidad": "Microsoft Azure", "Nivel": "7"},
                     {"Habilidad": "Docker", "Nivel": "6"},
                     {"Habilidad": "Git", "Nivel": "8"},
                     {"Habilidad": "GitHub", "Nivel": "8"}
@@ -96,7 +96,7 @@
                 "Area": "Movil Apps",
                 "Estilo": "list-group-item-blue fw-bold",
                 "Lista":[
-                    {"Habilidad": "Xamarin Forms", "Nivel": "7"}
+                    {"Habilidad": "Xamarin Forms", "Nivel": "6"}
                 ]
             }
         ],
