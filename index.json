@@ -101,7 +101,7 @@
             }
         ],
         "ExperienciaLaboral": {
-        "Resumen":"Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales he utilizado <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
+        "Resumen":"Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales utilizo <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
         "Lista":[
             {
               "RazonSocial": "A&S Software Developers",
@@ -188,7 +188,7 @@
                 {
                     "Titulo": "Docker",
                     "Imagen": "https://dev-to-uploads.s3.amazonaws.com/i/xblph46ykhw28jxq5lp6.PNG",
-                    "Contenido": "Docker es una tecnología que permite ejecutar un proceso de una manera totalmente aislada de los procesos de la maquina, además, de definir todas las dependencias del proceso a ejecutar. Por ejemplo, Docker permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas conocidas como contenedores que incluye todo lo necesario para que el software se ejecute.Con Docker puedes implementar y ajustar la escala de aplicaciones de manera rápida y en cualquier entorno.",
+                    "Contenido": "Docker es una tecnología que permite ejecutar un proceso totalmente aislado de los procesos de la maquina. Además, Docker define todas las dependencias del proceso a ejecutar. En resumen, Docker permite crear, probar e implementar aplicaciones rápidamente. Asi mismo, en Docker podemos empaquetar software en unidades estandarizadas conocidas como contenedores que incluye todo lo necesario para que el software se ejecute.Con Docker puedes implementar y ajustar la escala de aplicaciones de manera rápida y en cualquier entorno.",
                     "Fecha": "10-12-2020"
                 },
                 {
@@ -198,7 +198,8 @@
                     "Fecha": "10-12-2020"
                 }
             ]
-        }
+        },
+        "Footer": "Pregúntame lo que sea estoy dispuesto a ayudarte <a href='https://www.linkedin.com/in/percy-luis-leon-lucas/' class='text-dark fw-bold text-decoration-none'>Percy Leon"
   },
   "ENG": {
     "NavTitle":"Welcome",

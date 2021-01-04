@@ -149,7 +149,9 @@ function Idioma(lenguaje){
                 </div>`;
         }
 
-        document.getElementById("Articulos-Esp").innerHTML = art;
+      document.getElementById("Articulos-Esp").innerHTML = art;
+
+      document.getElementById("Footer").innerHTML = x.Footer;
     }
   };
 

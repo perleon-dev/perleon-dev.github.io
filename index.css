@@ -20,3 +20,11 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+
+.img-cont{
+    width: 150px;
+}
+
+.img-cont-lg{
+    width: 250px;
+}
