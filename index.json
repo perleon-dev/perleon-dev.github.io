@@ -106,7 +106,8 @@
             {
               "RazonSocial": "A&S Software Developers",
               "Tiempo": "4 años",
-              "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+              "Img": "IMG/logoAyS.png",
+              "Estilo": "min-img",
               "Descripcion": "A&S es una empresa de desarrollo de software cuyo producto principal es el sistema control de colas. Aparte de ello, soy integrante de un equipo conformado por 4 desarrolladores y como tal, parte de mi trabajo es desarrollar en conjunto con mis compañeros. Actualmente trabajo desarrollando requerimientos de software para los clientes de la empresa. Además, tengo la actitud proactiva de automatizar procesos, las principales tecnologías que utilizo son C#, Javascript, SQL Server, .NET Core, Blazor WebAssembly y Angular.",
               "Resumen":{
                       "Labores":[
@@ -149,6 +150,7 @@
               "RazonSocial": "Consulado de Italia - Instituto Italiano",
               "Tiempo": "2 meses",
               "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+              "Estilo": "",
               "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistió en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendí los requerimientos funcionales para la integración del software. Además, analicé la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el despliegue de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, además de instalar las dependencias del proyecto.",
               "Resumen":{
                       "Labores":[
@@ -192,8 +194,8 @@
                     "Fecha": "10-12-2020"
                 },
                 {
-                    "Titulo": "Golang",
-                    "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
+                    "Titulo": "Token Oauth",
+                    "Imagen": "https://uploads-ssl.webflow.com/56c639714d4f81a50633f386/5c589efe7bd3ab3e291b4b91_Ciberseguridad-Blog%20Grande.jpg",
                     "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
                     "Fecha": "10-12-2020"
                 }

@@ -120,7 +120,7 @@ function Idioma(lenguaje){
           obj += `<div class="card mb-3">
                     <div class="row px-0 mx-0">
                       <div class=" px-0 px-md-2 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
-                        <img class="img-thumbnail" src="${x.ExperienciaLaboral.Lista[i].Img}">
+                        <img class="img-thumbnail ${x.ExperienciaLaboral.Lista[i].Estilo}" src="${x.ExperienciaLaboral.Lista[i].Img}">
                       </div>
                       <div class=" col-lg-9 col-md-8 px-0 mx-0">
                         <div class="card-body">
