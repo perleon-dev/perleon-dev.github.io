@@ -198,6 +198,18 @@
                     "Imagen": "https://uploads-ssl.webflow.com/56c639714d4f81a50633f386/5c589efe7bd3ab3e291b4b91_Ciberseguridad-Blog%20Grande.jpg",
                     "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importatnte, ya que, de no tomar las precauciones necesarias estarias exponiendo tu tokens OAuth.",
                     "Fecha": "10-12-2020"
+                },
+                {
+                    "Titulo": "Principios SOLID",
+                    "Imagen": "https://www.netmentor.es/Imagen/04322e39-b280-49b3-9b1b-7fe17e78a4fc.jpg",
+                    "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importatnte, ya que, de no tomar las precauciones necesarias estarias exponiendo tu tokens OAuth.",
+                    "Fecha": "10-12-2020"
+                },
+                {
+                    "Titulo": "Microsoft Azure",
+                    "Imagen": "https://etechwall.com/wp-content/uploads/2019/11/Untitled-1474.png",
+                    "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importatnte, ya que, de no tomar las precauciones necesarias estarias exponiendo tu tokens OAuth.",
+                    "Fecha": "10-12-2020"
                 }
             ]
         },

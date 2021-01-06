@@ -139,7 +139,7 @@ function Idioma(lenguaje){
       /* Listar Articulos */
 
       for(var o = 0; o < x.Articulos.Lista.length; o++) {
-          art +=`<div class="card">
+          art +=`<div class=" col-12 col-md-6 col-lg-4 mt-4 mt-lg-3">
                   <img src="${x.Articulos.Lista[o].Imagen}" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">${x.Articulos.Lista[o].Titulo}</h5>
