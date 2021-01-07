@@ -63,11 +63,11 @@
                 "Estilo": "list-group-item-blue fw-bold",
                 "Lista":[
                     {"Habilidad": "Blazor", "Nivel": "10"},
-                    {"Habilidad": "Angular", "Nivel": "7"},
+                    {"Habilidad": "Angular", "Nivel": "6"},
                     {"Habilidad": "HTML", "Nivel": "10"},
                     {"Habilidad": "CSS", "Nivel": "10"},
                     {"Habilidad": "JavaScript", "Nivel": "9"},
-                    {"Habilidad": "TypeScript", "Nivel": "8"},
+                    {"Habilidad": "TypeScript", "Nivel": "6"},
                     {"Habilidad": "JQuery", "Nivel": "7"}
                 ]
             },
@@ -84,11 +84,11 @@
                 ]
             },
             {
-                "Area": "DevOps",
+                "Area": "Tools",
                 "Estilo": "list-group-item-blue fw-bold",
                 "Lista":[
-                    {"Habilidad": "Microsoft Azure", "Nivel": "7"},
-                    {"Habilidad": "Docker", "Nivel": "6"},
+                    {"Habilidad": "Microsoft Azure", "Nivel": "5"},
+                    {"Habilidad": "Docker", "Nivel": "5"},
                     {"Habilidad": "Git", "Nivel": "8"},
                     {"Habilidad": "GitHub", "Nivel": "8"}
                 ]
