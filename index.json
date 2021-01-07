@@ -180,37 +180,37 @@
           ]
         },
         "Articulos": {
-            "Descripcion":"En esta sección comparto un poco de mi experiencia y aprendizaje. Cada articulo contiene un breve resumen de lo que he aprendido. Además, trato de ser especifico con el contenido. ",
+            "Descripcion":"En esta sección comparto un poco de mi experiencia y aprendizaje. Cada articulo contiene un breve resumen de lo que he aprendido. Además, trato de ser especifico con el contenido.",
             "Lista":[
                 {
                     "Titulo": "Blazor WebAssembly",
                     "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
                     "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
-                    "Fecha": "10-12-2020"
+                    "Fecha": "07-12-2020"
                 },
                 {
                     "Titulo": "Docker",
                     "Imagen": "https://dev-to-uploads.s3.amazonaws.com/i/xblph46ykhw28jxq5lp6.PNG",
-                    "Contenido": "Docker es una tecnología que permite ejecutar un proceso totalmente aislado de los procesos de la maquina. Además, Docker define todas las dependencias del proceso a ejecutar. En resumen, Docker permite crear, probar e implementar aplicaciones rápidamente. Asi mismo, en Docker podemos empaquetar software en unidades estandarizadas conocidas como contenedores que incluye todo lo necesario para que el software se ejecute.Con Docker puedes implementar y ajustar la escala de aplicaciones de manera rápida y en cualquier entorno.",
-                    "Fecha": "10-12-2020"
-                },
-                {
-                    "Titulo": "Token Oauth",
-                    "Imagen": "https://uploads-ssl.webflow.com/56c639714d4f81a50633f386/5c589efe7bd3ab3e291b4b91_Ciberseguridad-Blog%20Grande.jpg",
-                    "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importatnte, ya que, de no tomar las precauciones necesarias estarias exponiendo tu tokens OAuth.",
+                    "Contenido": "Docker es una tecnología que permite ejecutar un proceso totalmente aislado de los procesos de la maquina. Además, Docker define todas las dependencias del proceso a ejecutar. En resumen, Docker permite crear, probar e implementar aplicaciones rápidamente. Así mismo, en Docker podemos empaquetar software en unidades estandarizadas conocidas como contenedores que incluye todo lo necesario para que el software se ejecute.Con Docker puedes implementar y ajustar la escala de aplicaciones de manera rápida y en cualquier entorno.",
                     "Fecha": "10-12-2020"
                 },
                 {
                     "Titulo": "Principios SOLID",
                     "Imagen": "https://www.netmentor.es/Imagen/04322e39-b280-49b3-9b1b-7fe17e78a4fc.jpg",
-                    "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importatnte, ya que, de no tomar las precauciones necesarias estarias exponiendo tu tokens OAuth.",
-                    "Fecha": "10-12-2020"
+                    "Contenido": "<b>P. de responsabilidad única</b>, esta particularidad establece que una clase debe ser responsable de un solo requerimiento. <b>P. abierto/cerrado</b>, establece que las entidades deberían estar abiertos para su extensión, pero cerrados para su modificación. <b>P. de substitución de Liskov</b>, las clases hijas deben ser reemplazables con instancias de sus subtipos sin alterar el comportamiento de la clase padre. <b>P. de segregación de interfaz</b>, este principio establece que los clientes no deberían verse forzados a depender de interfaces que no usan. <b>P. de inversión de dependencias</b>, tiene 2 particularidades, por un lado, los módulos de alto nivel no deberían depender de los módulos de bajo nivel, ambos deberían depender de abstracciones, por otro lado, las abstracciones no deberían depender de los detalles los detalles deben depender de abstracciones.",
+                    "Fecha": "15-12-2020"
+                },
+                {
+                    "Titulo": "Token Oauth",
+                    "Imagen": "https://uploads-ssl.webflow.com/56c639714d4f81a50633f386/5c589efe7bd3ab3e291b4b91_Ciberseguridad-Blog%20Grande.jpg",
+                    "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importante, ya que, de no tomar las precauciones necesarias estarías exponiendo tu tokens OAuth.",
+                    "Fecha": "01-01-2021"
                 },
                 {
                     "Titulo": "Microsoft Azure",
                     "Imagen": "https://etechwall.com/wp-content/uploads/2019/11/Untitled-1474.png",
-                    "Contenido": "Si alguna vez te has iniciado en un servicio usando tu cuenta de Gmail, Facebook o cualquier otras red social, has validado tokens OAuth. En otras palabras, un tokens OAuth es la llave para ingresar a los datos de las aplicaciones relacionadas. Conocer esto es importatnte, ya que, de no tomar las precauciones necesarias estarias exponiendo tu tokens OAuth.",
-                    "Fecha": "10-12-2020"
+                    "Contenido": "Redactando...",
+                    "Fecha": "07-01-2021"
                 }
             ]
         },
