@@ -27,7 +27,8 @@
             {"item":"<b>Edad:</b> 23 años"},
             {"item":"<b>Email:</b> percyleon107@gmail.com"},
             {"item":"Lima-Chorrillos"},
-            {"item":"<b>I love programming</b>"}
+            {"item":"<b>I love programming</b>"},
+            {"item":"<b>No hack, no fun</b>"}
         ],
         "RedesSociales":[
             {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
