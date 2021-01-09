@@ -5,14 +5,14 @@ var Modal = function(obj){
   var item1="";
   for(var i = 0; i < obj.Labores.length; i++) {
     item1 += `<span class="badge ${obj.Labores[i].Estilo}" style="margin-right:5px;">${obj.Labores[i].Labor}</span>`;
-  }
+    }
 
   document.getElementById("FormLabores").innerHTML = item1;
 
   var item2="";
   for(var e = 0; e < obj.Tecnologias.length; e++) {
     item2 += `<span class="badge ${obj.Tecnologias[e].Estilo}" style="margin-right:5px;">${obj.Tecnologias[e].Labor}</span>`;
-  }
+    }
   
   document.getElementById("FormTecnologias").innerHTML = item2;
 }
@@ -50,7 +50,6 @@ function Idioma(lenguaje){
       document.getElementById("TitleModal").innerHTML = x.TitleModal;
       document.getElementById("TitleLabores").innerHTML = x.TitleLabores;
       document.getElementById("TitleTecnologias").innerHTML = x.TitleTecnologias;
-
 
       document.getElementById("TitleLanguage").innerHTML = x.TitleLanguage;
 
@@ -152,7 +151,12 @@ function Idioma(lenguaje){
         }
 
       document.getElementById("Articulos-Esp").innerHTML = art;
-      
+
+      /* Mostrar contenido del footer */
+      document.getElementById("TitleDespedidaArt").innerHTML = x.Despedida.TitleDespedidaArt;
+      document.getElementById("ContentDespedida").innerHTML = x.Despedida.ContentDespedida;
+      document.getElementById("FooterDespedida").innerHTML = x.Despedida.FooterDespedida;
+
       /* Mostrar contenido del footer */
       document.getElementById("Footer").innerHTML = x.Footer;
     }

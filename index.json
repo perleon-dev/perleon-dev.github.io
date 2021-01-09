@@ -35,7 +35,7 @@
             {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
             {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
         ],
-        "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador <b>adicto a aprender nuevas cosas</b>. Por un lado, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en el que estoy especializado es en el <b>desarrollo de software</b>, mi lenguaje favorito es <b>C#</b>, sin embargo, conozco otros lenguajes. Por otro lado, tengo experiencia trabajando con <b>arquitectura monolítica</b> y <b>arquitectura de microservicios</b>. Me gustan los retos y amo los desafíos, además, me agrada enseñar, si te puedo ayudar en algo no dudes en escribirme.",
+        "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador <b>adicto a aprender nuevas cosas</b>. Por un lado, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en donde estoy especializado es la <b>programación</b>, mi lenguaje favorito es <b>C#</b>, sin embargo, conozco otros lenguajes. Por otro lado, tengo experiencia trabajando con <b>arquitectura monolítica</b> y <b>arquitectura de microservicios</b>. Me gustan los retos y amo los desafíos, además, me agrada enseñar, si te puedo ayudar en algo no dudes en escribirme.",
         "SitucionActual":[
             {
                 "Header": "Hobby",
@@ -55,7 +55,7 @@
             {
                 "Header": "Estado laboral",
                 "Titulo": "Desarrollador full stack",
-                "Descripcion": "Actualmente me dedico al desarrollo Web utilizo diversas tecnologias. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework."
+                "Descripcion": "Actualmente me dedico al desarrollo Web, utilizo diversas tecnologias. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework."
             }
         ],
         "Skills": [
@@ -103,7 +103,7 @@
             }
         ],
         "ExperienciaLaboral": {
-        "Resumen":"Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales utilizo <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
+        "Resumen": "Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales utilizo <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
         "Lista":[
             {
               "RazonSocial": "A&S Software Developers",
@@ -215,6 +215,11 @@
                 }
             ]
         },
+        "Despedida":{
+            "TitleDespedidaArt":"Hasta luego, espero te guste mi mensaje",
+            "ContentDespedida": "Las malas practicas se convierten en malas costumbres, las malas costumbres traen malos hábitos y los malos hábitos nos hacen cometer errores. No se puede cambiar el pasado, sin embargo, si podemos cambiar nuestro futuro. Las buenas practicas se convierten en buenas costumbres, las buenas costumbres traen buenos hábitos y los buenos hábitos nos hacen mejor persona.",
+            "FooterDespedida": "Nunca pares de aprender."
+        },
         "Footer": "Pregúntame lo que sea estoy dispuesto a ayudarte <a href='https://www.linkedin.com/in/percy-luis-leon-lucas/' class='text-dark fw-bold text-decoration-none'>Percy Leon"
   },
   "ENG": {
@@ -281,7 +286,7 @@
             ]
         },
         {
-            "Area": "DevOps",
+            "Area": "Otros",
             "Estilo": "list-group-item-warning fw-bold",
             "Lista":[
                 {"Habilidad": "Microsoft Azure", "Nivel": "8"},
