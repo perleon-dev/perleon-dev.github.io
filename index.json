@@ -40,22 +40,22 @@
             {
                 "Header": "Hobby",
                 "Titulo": "Investigar",
-                "Descripcion": "Soy un programador empedernido, en mis ratos libres me dedico a la investigación, mis temas favoritos son el Machine Learning y la seguridad informatica."
+                "Descripcion": "Soy un programador empedernido, en mis ratos libres me dedico a la investigación, mis temas favoritos son el Machine Learning y la seguridad informática."
             },
             {
                 "Header": "Pasatiempo",
                 "Titulo": "Proyectos",
-                "Descripcion": "Me gustan los retos, actualmente participo en 2 proyectos CULLQUI y FastService"
+                "Descripcion": "Me gustan los retos, actualmente participo en 2 proyectos CULLQUI y FastService."
             },
             {
-                "Header": "Estado academico",
+                "Header": "Estado académico",
                 "Titulo": "Ingenieria de sistemas",
-                "Descripcion": "Soy Tecnico, estudie la carrera Computación e Informatica. Me guta mi trabajo asi que decidi continuar con la carrera."
+                "Descripcion": "Soy Técnico, estudie la carrera Computación e Informática. Me gusta mi trabajo así que decidí continuar con la carrera."
             },
             {
                 "Header": "Estado laboral",
                 "Titulo": "Desarrollador full stack",
-                "Descripcion": "Actualmente me dedico al desarrollo Web, utilizo diversas tecnologias. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework."
+                "Descripcion": "Actualmente me dedico al desarrollo Web, utilizo diversas tecnologías. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework."
             }
         ],
         "Skills": [
