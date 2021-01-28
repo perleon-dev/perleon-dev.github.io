@@ -33,7 +33,8 @@
         "RedesSociales":[
             {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
             {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
-            {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"}
+            {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"},
+            {"Cuenta": "", "Icono": "fab fa-youtube fa-3x", "Estilo":"text-danger"}
         ],
         "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador <b>adicto a aprender nuevas cosas</b>. Por un lado, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en donde estoy especializado es la <b>programación</b>, mi lenguaje favorito es <b>C#</b>, sin embargo, conozco otros lenguajes. Por otro lado, tengo experiencia trabajando con <b>arquitectura monolítica</b> y <b>arquitectura de microservicios</b>. Me gustan los retos y amo los desafíos, además, me agrada enseñar, si te puedo ayudar en algo no dudes en escribirme.",
         "SitucionActual":[
@@ -55,7 +56,7 @@
             {
                 "Header": "Estado laboral",
                 "Titulo": "Desarrollador full stack",
-                "Descripcion": "Actualmente me dedico al desarrollo Web, utilizo diversas tecnologías. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework."
+                "Descripcion": "Actualmente me dedico al desarrollo Web, utilizo diversas tecnologías. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework y Blazor."
             }
         ],
         "Skills": [
