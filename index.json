@@ -1,13 +1,13 @@
 {
-    "ESP" : {
-        "NavTitle":"Bienvenido",
-        "NavItem1":"Presentación",
-        "NavItem2":"Habilidades",
-        "NavItem3":"Experiencia&nbsp;laboral",
-        "NavItem4":"ArtÍculos",
-        "NavItem5":"Despedida",
-        "TitleLanguage":"Idioma",
-        "TitlePresentacion":"Presentación",
+    "ESP": {
+        "NavTitle": "Bienvenido",
+        "NavItem1": "Presentación",
+        "NavItem2": "Habilidades",
+        "NavItem3": "Experiencia&nbsp;laboral",
+        "NavItem4": "ArtÍculos",
+        "NavItem5": "Despedida",
+        "TitleLanguage": "Idioma",
+        "TitlePresentacion": "Presentación",
         "TitleSituacion": "Situación actual",
         "TitleHabilidades": "Habilidades",
         "TitleDespedida": "Despedida",
@@ -17,28 +17,27 @@
         "TitleLabores": "Labores",
         "TitleTecnologias": "Tecnologias",
         "Idiomas": [
-            {"Idioma": "Español", "Abreviatura": "ESP"},
-            {"Idioma": "Ingles", "Abreviatura": "ENG"}
+            { "Idioma": "Español", "Abreviatura": "ESP" },
+            { "Idioma": "Ingles", "Abreviatura": "ENG" }
         ],
         "NombreCompleto": "Percy Luis Leon Lucas",
-        "Cargo": "Desarrollador full stack",
-        "DatosPersonales":[
-            {"item":"<b>Pais:</b> Perú"},
-            {"item":"<b>Edad:</b> 23 años"},
-            {"item":"<b>Email:</b> percyleon107@gmail.com"},
-            {"item":"Lima-Chorrillos"},
-            {"item":"<b>I love programming</b>"},
-            {"item":"<b>No hack, no fun</b>"}
+        "Cargo": "Analista Desarrollador Full-Stack",
+        "DatosPersonales": [
+            { "item": "<b>Pais:</b> Perú" },
+            { "item": "<b>Edad:</b> 23 años" },
+            { "item": "<b>Email:</b> percyleon107@gmail.com" },
+            { "item": "Lima-Chorrillos" },
+            { "item": "<b>I love programming</b>" },
+            { "item": "<b>No hack, no fun</b>" }
         ],
-        "RedesSociales":[
-            {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
-            {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-mixto"},
-            {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-dark"},
-            {"Cuenta": "", "Icono": "fab fa-youtube fa-3x", "Estilo":"text-danger"}
+        "RedesSociales": [
+            { "Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono": "fa-linkedin fa-3x", "Estilo": "text-blue" },
+            { "Cuenta": "", "Icono": "fa-instagram-square fa-3x", "Estilo": "text-mixto" },
+            { "Cuenta": "https://github.com/PercyLeon123", "Icono": "fa-github-square fa-3x", "Estilo": "text-dark" },
+            { "Cuenta": "", "Icono": "fab fa-youtube fa-3x", "Estilo": "text-danger" }
         ],
-        "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador <b>adicto a aprender nuevas cosas</b>. Por un lado, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en donde estoy especializado es la <b>programación</b>, mi lenguaje favorito es <b>C#</b>, sin embargo, conozco otros lenguajes. Por otro lado, tengo experiencia trabajando con <b>arquitectura monolítica</b> y tengo conocimientos previos en <b>arquitectura de microservicios</b>. Me gustan los retos y amo los desafíos, además, me agrada enseñar, si te puedo ayudar en algo no dudes en escribirme.",
-        "SitucionActual":[
-            {
+        "Presentacion": "Hola, soy <b>Percy Leon</b>, soy un desarrollador <b>adicto a aprender nuevas cosas</b>. Por un lado, me gusta la investigación, constantemente actualizo mis conocimientos y mejoro mis habilidades. El área en donde estoy especializado es la <b>programación</b>, mi lenguaje favorito es <b>C#</b>, sin embargo, conozco otros lenguajes. Por otro lado, tengo experiencia trabajando con <b>arquitectura monolítica</b> y tengo conocimientos previos en <b>arquitectura de microservicios</b>. Me gustan los retos y <b>amo los desafíos</b>, además, <b>me agrada enseñar</b>, si te puedo ayudar en algo no dudes en contactarme.",
+        "SitucionActual": [{
                 "Header": "Hobby",
                 "Titulo": "Investigar",
                 "Descripcion": "Soy un programador empedernido, en mis ratos libres me dedico a la investigación, mis temas favoritos son el Machine Learning y la seguridad informática."
@@ -55,138 +54,135 @@
             },
             {
                 "Header": "Estado laboral",
-                "Titulo": "Desarrollador full stack",
-                "Descripcion": "Actualmente me dedico al desarrollo Web, utilizo diversas tecnologías. Por ejemplo, Microsoft Azure, SignalR, .Net Core, Entity Framework y Blazor."
+                "Titulo": "Analista Desarrollador Full-Stack",
+                "Descripcion": "Actualmente me dedico a desarrollar aplicaciones Web, utilizo diversas tecnologías. Por ejemplo, Angular, SQL Server, .Net Core, Azure DevOps y Ant Design."
             }
         ],
-        "Skills": [
-            {
+        "Skills": [{
                 "Area": "Front-End",
                 "Estilo": "list-group-item-blue fw-bold",
-                "Lista":[
-                    {"Habilidad": "Blazor", "Nivel": "10"},
-                    {"Habilidad": "Angular", "Nivel": "6"},
-                    {"Habilidad": "HTML", "Nivel": "10"},
-                    {"Habilidad": "CSS", "Nivel": "10"},
-                    {"Habilidad": "JavaScript", "Nivel": "9"},
-                    {"Habilidad": "TypeScript", "Nivel": "6"},
-                    {"Habilidad": "JQuery", "Nivel": "7"},
-                    {"Habilidad": "Bootstrap", "Nivel": "9"},
-                    {"Habilidad": "Bulma", "Nivel": "3"}
+                "Lista": [
+                    { "Habilidad": "Blazor", "Nivel": "10" },
+                    { "Habilidad": "Angular", "Nivel": "6" },
+                    { "Habilidad": "HTML", "Nivel": "10" },
+                    { "Habilidad": "CSS", "Nivel": "10" },
+                    { "Habilidad": "JavaScript", "Nivel": "9" },
+                    { "Habilidad": "TypeScript", "Nivel": "6" },
+                    { "Habilidad": "JQuery", "Nivel": "7" },
+                    { "Habilidad": "Bootstrap", "Nivel": "9" },
+                    { "Habilidad": "Bulma", "Nivel": "3" }
                 ]
             },
             {
                 "Area": "Back-End",
                 "Estilo": "list-group-item-blue fw-bold",
-                "Lista":[
-                    {"Habilidad": "C#", "Nivel": "10"},
-                    {"Habilidad": ".Net Core", "Nivel": "8"},
-                    {"Habilidad": "SQL Express", "Nivel": "7"},
-                    {"Habilidad": "Entity Framework Core", "Nivel": "7"},
-                    {"Habilidad": "MySql", "Nivel": "8"},
-                    {"Habilidad": "PHP", "Nivel": "10"}
+                "Lista": [
+                    { "Habilidad": "C#", "Nivel": "10" },
+                    { "Habilidad": ".Net Core", "Nivel": "8" },
+                    { "Habilidad": "SQL Express", "Nivel": "7" },
+                    { "Habilidad": "Entity Framework Core", "Nivel": "7" },
+                    { "Habilidad": "MySql", "Nivel": "8" },
+                    { "Habilidad": "PHP", "Nivel": "10" }
                 ]
             },
             {
                 "Area": "Tools",
                 "Estilo": "list-group-item-blue fw-bold",
-                "Lista":[
-                    {"Habilidad": "Microsoft Azure", "Nivel": "5"},
-                    {"Habilidad": "Docker", "Nivel": "5"},
-                    {"Habilidad": "Git", "Nivel": "8"},
-                    {"Habilidad": "GitHub", "Nivel": "8"}
+                "Lista": [
+                    { "Habilidad": "Microsoft Azure", "Nivel": "5" },
+                    { "Habilidad": "Docker", "Nivel": "5" },
+                    { "Habilidad": "Git", "Nivel": "8" },
+                    { "Habilidad": "GitHub", "Nivel": "8" }
                 ]
             },
             {
                 "Area": "Movil Apps",
                 "Estilo": "list-group-item-blue fw-bold",
-                "Lista":[
-                    {"Habilidad": "Xamarin Forms", "Nivel": "6"}
+                "Lista": [
+                    { "Habilidad": "Xamarin Forms", "Nivel": "6" }
                 ]
             }
         ],
         "ExperienciaLaboral": {
-        "Resumen": "Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales utilizo <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
-        "Lista":[
-            {
-              "RazonSocial": "A&S Software Developers",
-              "Tiempo": "4 años",
-              "Img": "IMG/logoAyS.png",
-              "Estilo": "min-img",
-              "Descripcion": "A&S es una empresa de desarrollo de software cuyo producto principal es el sistema control de colas. Aparte de ello, soy integrante de un equipo conformado por 4 desarrolladores y como tal, parte de mi trabajo es desarrollar en conjunto con mis compañeros. Actualmente trabajo desarrollando requerimientos de software para los clientes de la empresa. Además, tengo la actitud proactiva de automatizar procesos, las principales tecnologías que utilizo son C#, Javascript, SQL Server, .NET Core, Blazor WebAssembly y Angular.",
-              "Resumen":{
-                      "Labores":[
-                          {"Labor": "Lider tecnico", "Estilo": "bg-dark"},
-                          {"Labor": "Optimizar querys", "Estilo": "bg-primary"},
-                          {"Labor": "Planificar soluciones", "Estilo": "bg-secondary"},
-                          {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
-                          {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
-                          {"Labor": "Despliege", "Estilo": "bg-warning text-dark"},
-                          {"Labor": "Investigacion", "Estilo": "bg-info text-dark"},
-                          {"Labor": "Atender requerimiento funcionales", "Estilo": "bg-light text-dark"},
-                          {"Labor": "Instalación", "Estilo": "bg-dark"}
-                      ],
-                      "Tecnologias":[
-                          {"Labor": "PHP", "Estilo": "bg-primary"},
-                          {"Labor": "HTML", "Estilo": "bg-secondary"},
-                          {"Labor": "CSS", "Estilo": "bg-success"},
-                          {"Labor": "Bootstrap", "Estilo": "bg-danger"},
-                          {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
-                          {"Labor": "SQL Server 2019", "Estilo": "bg-info text-dark"},
-                          {"Labor": "Windows", "Estilo": "bg-light text-dark"},
-                          {"Labor": "Blazor", "Estilo": "bg-dark"},
-                          {"Labor": "Angular", "Estilo": "bg-primary"},
-                          {"Labor": ".Net Core", "Estilo": "bg-secondary"},
-                          {"Labor": "C#", "Estilo": "bg-success"},
-                          {"Labor": "Git", "Estilo": "bg-danger"},
-                          {"Labor": "GitHub", "Estilo": "bg-warning text-dark"},
-                          {"Labor": "Microsoft Azure", "Estilo": "bg-info text-dark"},
-                          {"Labor": "Docker", "Estilo": "bg-light text-dark"},
-                          {"Labor": "SQL Server Profiler", "Estilo": "bg-dark"},
-                          {"Labor": "SQL Server 2017", "Estilo": "bg-primary"},
-                          {"Labor": "Visual Studio 2019", "Estilo": "bg-secondary"},
-                          {"Labor": "JavaScript", "Estilo": "bg-success"},
-                          {"Labor": "TypeScript", "Estilo": "bg-danger"},
-                          {"Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark"}
-                      ]
+            "Resumen": "Resumiré toda mi experiencia en desarrollo de software. En primer lugar, para el <b>Back-End</b> los principales leguajes que utilizo son <b>C#</b> y <b>PHP</b>. Así mismo, para las base de datos relacionales utilizo <b>SQL Server</b> y <b>Mysql</b>. Por ejemplo, desarrolle APIS que se conectaran a <b>Microsoft Azure</b> para almacenar imágenes, desarrolle todo tipo de <b>Web Service</b> con conexión a <b>bases de datos</b>, he realizado proyectos con conexión <b>SignalR</b>, he desarrollado <b>chat en linea</b> y utilizando <b>criterios estadísticos</b> he calculado información para ser evaluada gráficamente. En segundo lugar, mis labores en el <b>Front-End</b> las he desarrollado con framework como <b>Blazor WebAssembly</b> y <b>Angular</b>. Además, utilizo <b>patrones de diseño</b> para mejorar la escalabilidad de la aplicación. Por ejemplo <b>patrón singleton</b>, <b>patrón observer</b> y <b>patrón mediador</b>. Por ultimo, para el <b>desarrollo móvil</b> utilizo <b>Xamarin Forms</b>.",
+            "Lista": [{
+                    "RazonSocial": "A&S Software Developers",
+                    "Tiempo": "4 años",
+                    "Img": "IMG/logoAyS.png",
+                    "Estilo": "min-img",
+                    "Descripcion": "A&S es una empresa de desarrollo de software cuyo producto principal es el sistema control de colas. Aparte de ello, soy integrante de un equipo conformado por 4 desarrolladores y como tal, parte de mi trabajo es desarrollar en conjunto con mis compañeros. Actualmente trabajo desarrollando requerimientos de software para los clientes de la empresa. Además, tengo la actitud proactiva de automatizar procesos, las principales tecnologías que utilizo son C#, Javascript, SQL Server, .NET Core, Blazor WebAssembly y Angular.",
+                    "Resumen": {
+                        "Labores": [
+                            { "Labor": "Lider tecnico", "Estilo": "bg-dark" },
+                            { "Labor": "Optimizar querys", "Estilo": "bg-primary" },
+                            { "Labor": "Planificar soluciones", "Estilo": "bg-secondary" },
+                            { "Labor": "Desarrollo Front-end", "Estilo": "bg-success" },
+                            { "Labor": "Desarrollo Back-end", "Estilo": "bg-danger" },
+                            { "Labor": "Despliege", "Estilo": "bg-warning text-dark" },
+                            { "Labor": "Investigacion", "Estilo": "bg-info text-dark" },
+                            { "Labor": "Atender requerimiento funcionales", "Estilo": "bg-light text-dark" },
+                            { "Labor": "Instalación", "Estilo": "bg-dark" }
+                        ],
+                        "Tecnologias": [
+                            { "Labor": "PHP", "Estilo": "bg-primary" },
+                            { "Labor": "HTML", "Estilo": "bg-secondary" },
+                            { "Labor": "CSS", "Estilo": "bg-success" },
+                            { "Labor": "Bootstrap", "Estilo": "bg-danger" },
+                            { "Labor": "JQuery", "Estilo": "bg-warning text-dark" },
+                            { "Labor": "SQL Server 2019", "Estilo": "bg-info text-dark" },
+                            { "Labor": "Windows", "Estilo": "bg-light text-dark" },
+                            { "Labor": "Blazor", "Estilo": "bg-dark" },
+                            { "Labor": "Angular", "Estilo": "bg-primary" },
+                            { "Labor": ".Net Core", "Estilo": "bg-secondary" },
+                            { "Labor": "C#", "Estilo": "bg-success" },
+                            { "Labor": "Git", "Estilo": "bg-danger" },
+                            { "Labor": "GitHub", "Estilo": "bg-warning text-dark" },
+                            { "Labor": "Microsoft Azure", "Estilo": "bg-info text-dark" },
+                            { "Labor": "Docker", "Estilo": "bg-light text-dark" },
+                            { "Labor": "SQL Server Profiler", "Estilo": "bg-dark" },
+                            { "Labor": "SQL Server 2017", "Estilo": "bg-primary" },
+                            { "Labor": "Visual Studio 2019", "Estilo": "bg-secondary" },
+                            { "Labor": "JavaScript", "Estilo": "bg-success" },
+                            { "Labor": "TypeScript", "Estilo": "bg-danger" },
+                            { "Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark" }
+                        ]
+                    }
+                },
+                {
+                    "RazonSocial": "Consulado de Italia - Instituto Italiano",
+                    "Tiempo": "2 meses",
+                    "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+                    "Estilo": "",
+                    "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistió en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendí los requerimientos funcionales para la integración del software. Además, analicé la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el despliegue de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, además de instalar las dependencias del proyecto.",
+                    "Resumen": {
+                        "Labores": [
+                            { "Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark" },
+                            { "Labor": "Analise base de datos", "Estilo": "bg-primary" },
+                            { "Labor": "Planifique soluciones", "Estilo": "bg-secondary" },
+                            { "Labor": "Desarrollo Front-end", "Estilo": "bg-success" },
+                            { "Labor": "Desarrollo Back-end", "Estilo": "bg-danger" },
+                            { "Labor": "Testing", "Estilo": "bg-warning text-dark" },
+                            { "Labor": "Despliege", "Estilo": "bg-info text-dark" },
+                            { "Labor": "Configuración", "Estilo": "bg-light text-dark" },
+                            { "Labor": "Instalación", "Estilo": "bg-dark" }
+                        ],
+                        "Tecnologias": [
+                            { "Labor": "PHP", "Estilo": "bg-primary" },
+                            { "Labor": "HTML", "Estilo": "bg-secondary" },
+                            { "Labor": "CSS", "Estilo": "bg-success" },
+                            { "Labor": "Bootstrap", "Estilo": "bg-danger" },
+                            { "Labor": "JQuery", "Estilo": "bg-warning text-dark" },
+                            { "Labor": "MariaDB", "Estilo": "bg-info text-dark" },
+                            { "Labor": "Linux-Ubuntu", "Estilo": "bg-light text-dark" },
+                            { "Labor": "SSH", "Estilo": "bg-dark" }
+                        ]
+                    }
                 }
-            },
-            {
-              "RazonSocial": "Consulado de Italia - Instituto Italiano",
-              "Tiempo": "2 meses",
-              "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
-              "Estilo": "",
-              "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistió en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendí los requerimientos funcionales para la integración del software. Además, analicé la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el despliegue de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, además de instalar las dependencias del proyecto.",
-              "Resumen":{
-                      "Labores":[
-                          {"Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark"},
-                          {"Labor": "Analise base de datos", "Estilo": "bg-primary"},
-                          {"Labor": "Planifique soluciones", "Estilo": "bg-secondary"},
-                          {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
-                          {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
-                          {"Labor": "Testing", "Estilo": "bg-warning text-dark"},
-                          {"Labor": "Despliege", "Estilo": "bg-info text-dark"},
-                          {"Labor": "Configuración", "Estilo": "bg-light text-dark"},
-                          {"Labor": "Instalación", "Estilo": "bg-dark"}
-                      ],
-                      "Tecnologias":[
-                          {"Labor": "PHP", "Estilo": "bg-primary"},
-                          {"Labor": "HTML", "Estilo": "bg-secondary"},
-                          {"Labor": "CSS", "Estilo": "bg-success"},
-                          {"Labor": "Bootstrap", "Estilo": "bg-danger"},
-                          {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
-                          {"Labor": "MariaDB", "Estilo": "bg-info text-dark"},
-                          {"Labor": "Linux-Ubuntu", "Estilo": "bg-light text-dark"},
-                          {"Labor": "SSH", "Estilo": "bg-dark"}
-                      ]
-                  }
-            }
-          ]
+            ]
         },
         "Articulos": {
-            "Descripcion":"En esta sección comparto un poco de mi experiencia y aprendizaje. Cada articulo contiene un breve resumen de lo que he aprendido. Además, trato de ser especifico con el contenido.",
-            "Lista":[
-                {
+            "Descripcion": "En esta sección comparto un poco de mi experiencia y aprendizaje. Cada articulo contiene un breve resumen de lo que he aprendido. Además, trato de ser especifico con el contenido.",
+            "Lista": [{
                     "Titulo": "Blazor WebAssembly",
                     "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
                     "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
@@ -218,186 +214,183 @@
                 }
             ]
         },
-        "Despedida":{
-            "TitleDespedidaArt":"Hasta luego, espero te guste mi mensaje",
-            "ContentDespedida": "Las malas practicas se convierten en malas costumbres, las malas costumbres traen malos hábitos y los malos hábitos nos hacen cometer errores. No se puede cambiar el pasado, sin embargo, si podemos cambiar nuestro futuro. Las buenas practicas se convierten en buenas costumbres, las buenas costumbres traen buenos hábitos y los buenos hábitos nos hacen mejor persona.",
+        "Despedida": {
+            "TitleDespedidaArt": "Hasta luego, espero te guste mi mensaje",
+            "ContentDespedida": "Las malas practicas se convierten en malas costumbres, las malas costumbres traen malos hábitos y los malos hábitos nos hacen cometer errores. <b>No se puede cambiar el pasado</b>, sin embargo, <b>si podemos cambiar nuestro futuro</b>. Las buenas practicas se convierten en buenas costumbres, las buenas costumbres traen buenos hábitos y los buenos hábitos nos hacen mejor persona.",
             "FooterDespedida": "Nunca pares de aprender."
         },
         "Footer": "Pregúntame lo que sea estoy dispuesto a ayudarte <a href='https://www.linkedin.com/in/percy-luis-leon-lucas/' class='text-dark fw-bold text-decoration-none'>Percy Leon"
-  },
-  "ENG": {
-    "NavTitle":"Welcome",
-    "NavItem1":"About&nbsp;me",
-    "NavItem2":"Work&nbsp;experience",
-    "NavItem3":"Articles",
-    "TitleLanguage":"Language",
-    "Idiomas": [
-        {"Idioma": "Spanish", "Abreviatura": "ESP"},
-        {"Idioma": "English", "Abreviatura": "ENG"}
-    ],
-    "NombreCompleto": "Percy Luis Leon Lucas",
-    "Cargo": "Software developer .net",
-    "DatosPersonales":[
-        {"item":"<b>Pais:</b> Perú"},
-        {"item":"<b>Edad:</b> 23 años"},
-        {"item":"<b>Email:</b> percyleon107@gmail.com"},
-        {"item":"Lima-Chorrillos"}
-    ],
-    "RedesSociales":[
-        {"Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono" : "fa-linkedin fa-3x", "Estilo":"text-blue"},
-        {"Cuenta": "", "Icono" : "fa-instagram-square fa-3x", "Estilo":"text-blue"},
-        {"Cuenta": "https://github.com/PercyLeon123", "Icono" : "fa-github-square fa-3x", "Estilo":"text-blue"}
-    ],
-    "Presentacion":"Hello, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
-    "Skills": [
-        {
-            "Area": "Personal",
-            "Estilo": "bg-blue fw-bold",
-            "Lista":[
-                {"Habilidad": "Autodidacta", "Nivel": "10"},
-                {"Habilidad": "Responsable", "Nivel": "10"},
-                {"Habilidad": "Puntualidad", "Nivel": "10"},
-                {"Habilidad": "Comunicación efectiva", "Nivel": "10"},
-                {"Habilidad": "JavaScript", "Nivel": "9"},
-                {"Habilidad": "TypeScript", "Nivel": "8"},
-                {"Habilidad": "JQuery", "Nivel": "7"}
-            ]
-        },
-        {
-            "Area": "Front-End",
-            "Estilo": "bg-blue fw-bold",
-            "Lista":[
-                {"Habilidad": "Blazor", "Nivel": "10"},
-                {"Habilidad": "Angular", "Nivel": "7"},
-                {"Habilidad": "HTML", "Nivel": "10"},
-                {"Habilidad": "CSS", "Nivel": "10"},
-                {"Habilidad": "JavaScript", "Nivel": "9"},
-                {"Habilidad": "TypeScript", "Nivel": "8"},
-                {"Habilidad": "JQuery", "Nivel": "7"}
-            ]
-        },
-        {
-            "Area": "Back-End",
-            "Estilo": "list-group-item-primary fw-bold",
-            "Lista":[
-                {"Habilidad": "C#", "Nivel": "10"},
-                {"Habilidad": ".Net Core", "Nivel": "10"},
-                {"Habilidad": "SQL Express", "Nivel": "7"},
-                {"Habilidad": "Entity Framework Core", "Nivel": "7"},
-                {"Habilidad": "MySql", "Nivel": "8"},
-                {"Habilidad": "PHP", "Nivel": "10"}
-            ]
-        },
-        {
-            "Area": "Otros",
-            "Estilo": "list-group-item-warning fw-bold",
-            "Lista":[
-                {"Habilidad": "Microsoft Azure", "Nivel": "8"},
-                {"Habilidad": "Docker", "Nivel": "6"},
-                {"Habilidad": "Git", "Nivel": "8"},
-                {"Habilidad": "GitHub", "Nivel": "8"}
-            ]
-        },
-        {
-            "Area": "Movil Apps",
-            "Estilo": "list-group-item-success fw-bold",
-            "Lista":[
-                {"Habilidad": "Xamarin Forms", "Nivel": "7"}
-            ]
-        }
-    ],
-    "ExperienciaLaboral": [
-      {
-        "RazonSocial": "A&S Software Developers",
-        "Tiempo": "4 años",
-        "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
-        "Descripcion": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.",
-        "Resumen":{
-                "Labores":[
-                    {"Labor": "Lider tecnico", "Estilo": "bg-dark"},
-                    {"Labor": "Optimizar querys", "Estilo": "bg-primary"},
-                    {"Labor": "Planificar soluciones", "Estilo": "bg-secondary"},
-                    {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
-                    {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
-                    {"Labor": "Despliege", "Estilo": "bg-warning text-dark"},
-                    {"Labor": "Investigacion", "Estilo": "bg-info text-dark"},
-                    {"Labor": "Atender requerimiento funcionales", "Estilo": "bg-light text-dark"},
-                    {"Labor": "Instalación", "Estilo": "bg-dark"}
-                ],
-                "Tecnologias":[
-                    {"Labor": "PHP", "Estilo": "bg-primary"},
-                    {"Labor": "HTML", "Estilo": "bg-secondary"},
-                    {"Labor": "CSS", "Estilo": "bg-success"},
-                    {"Labor": "Bootstrap", "Estilo": "bg-danger"},
-                    {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
-                    {"Labor": "SQL Server 2019", "Estilo": "bg-info text-dark"},
-                    {"Labor": "Windows", "Estilo": "bg-light text-dark"},
-                    {"Labor": "Blazor", "Estilo": "bg-dark"},
-                    {"Labor": "Angular", "Estilo": "bg-primary"},
-                    {"Labor": ".Net Core", "Estilo": "bg-secondary"},
-                    {"Labor": "C#", "Estilo": "bg-success"},
-                    {"Labor": "Git", "Estilo": "bg-danger"},
-                    {"Labor": "GitHub", "Estilo": "bg-warning text-dark"},
-                    {"Labor": "Microsoft Azure", "Estilo": "bg-info text-dark"},
-                    {"Labor": "Docker", "Estilo": "bg-light text-dark"},
-                    {"Labor": "SQL Server Profiler", "Estilo": "bg-dark"},
-                    {"Labor": "SQL Server 2017", "Estilo": "bg-primary"},
-                    {"Labor": "Visual Studio 2019", "Estilo": "bg-secondary"},
-                    {"Labor": "JavaScript", "Estilo": "bg-success"},
-                    {"Labor": "TypeScript", "Estilo": "bg-danger"},
-                    {"Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark"}
+    },
+    "ENG": {
+        "NavTitle": "Welcome",
+        "NavItem1": "About&nbsp;me",
+        "NavItem2": "Work&nbsp;experience",
+        "NavItem3": "Articles",
+        "TitleLanguage": "Language",
+        "Idiomas": [
+            { "Idioma": "Spanish", "Abreviatura": "ESP" },
+            { "Idioma": "English", "Abreviatura": "ENG" }
+        ],
+        "NombreCompleto": "Percy Luis Leon Lucas",
+        "Cargo": "Software developer .net",
+        "DatosPersonales": [
+            { "item": "<b>Pais:</b> Perú" },
+            { "item": "<b>Edad:</b> 23 años" },
+            { "item": "<b>Email:</b> percyleon107@gmail.com" },
+            { "item": "Lima-Chorrillos" }
+        ],
+        "RedesSociales": [
+            { "Cuenta": "https://www.linkedin.com/in/percy-luis-leon-lucas/", "Icono": "fa-linkedin fa-3x", "Estilo": "text-blue" },
+            { "Cuenta": "", "Icono": "fa-instagram-square fa-3x", "Estilo": "text-blue" },
+            { "Cuenta": "https://github.com/PercyLeon123", "Icono": "fa-github-square fa-3x", "Estilo": "text-blue" }
+        ],
+        "Presentacion": "Hello, soy <b>Percy Leon</b>, soy un desarrollador adicto a aprender nuevas cosas, me encanta poder compartir un poco de lo que voy aprendiendo en el día a día. Si estás en este blog significa que también eres un desarrollador así que bienvenido. Ademas, estoy utilizando Github Page para almacenar esta pagina. Ya que, Github Page solo acepta HTML, CSS y JavaScript mi pagina no tiene conexión con base de datos. Sin embargo, he podido simular una pagina dinamica.",
+        "Skills": [{
+                "Area": "Personal",
+                "Estilo": "bg-blue fw-bold",
+                "Lista": [
+                    { "Habilidad": "Autodidacta", "Nivel": "10" },
+                    { "Habilidad": "Responsable", "Nivel": "10" },
+                    { "Habilidad": "Puntualidad", "Nivel": "10" },
+                    { "Habilidad": "Comunicación efectiva", "Nivel": "10" },
+                    { "Habilidad": "JavaScript", "Nivel": "9" },
+                    { "Habilidad": "TypeScript", "Nivel": "8" },
+                    { "Habilidad": "JQuery", "Nivel": "7" }
                 ]
-          }
-      },
-      {
-        "RazonSocial": "Consulado de Italia - Instituto Italiano",
-        "Tiempo": "2 meses",
-        "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
-        "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.",
-        "Resumen":{
-                "Labores":[
-                    {"Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark"},
-                    {"Labor": "Analise base de datos", "Estilo": "bg-primary"},
-                    {"Labor": "Planifique soluciones", "Estilo": "bg-secondary"},
-                    {"Labor": "Desarrollo Front-end", "Estilo": "bg-success"},
-                    {"Labor": "Desarrollo Back-end", "Estilo": "bg-danger"},
-                    {"Labor": "Testing", "Estilo": "bg-warning text-dark"},
-                    {"Labor": "Despliege", "Estilo": "bg-info text-dark"},
-                    {"Labor": "Configuración", "Estilo": "bg-light text-dark"},
-                    {"Labor": "Instalación", "Estilo": "bg-dark"}
-                ],
-                "Tecnologias":[
-                    {"Labor": "PHP", "Estilo": "bg-primary"},
-                    {"Labor": "HTML", "Estilo": "bg-secondary"},
-                    {"Labor": "CSS", "Estilo": "bg-success"},
-                    {"Labor": "Bootstrap", "Estilo": "bg-danger"},
-                    {"Labor": "JQuery", "Estilo": "bg-warning text-dark"},
-                    {"Labor": "MariaDB", "Estilo": "bg-info text-dark"},
-                    {"Labor": "Linux-Ubuntu", "Estilo": "bg-light text-dark"},
-                    {"Labor": "SSH", "Estilo": "bg-dark"}
+            },
+            {
+                "Area": "Front-End",
+                "Estilo": "bg-blue fw-bold",
+                "Lista": [
+                    { "Habilidad": "Blazor", "Nivel": "10" },
+                    { "Habilidad": "Angular", "Nivel": "7" },
+                    { "Habilidad": "HTML", "Nivel": "10" },
+                    { "Habilidad": "CSS", "Nivel": "10" },
+                    { "Habilidad": "JavaScript", "Nivel": "9" },
+                    { "Habilidad": "TypeScript", "Nivel": "8" },
+                    { "Habilidad": "JQuery", "Nivel": "7" }
+                ]
+            },
+            {
+                "Area": "Back-End",
+                "Estilo": "list-group-item-primary fw-bold",
+                "Lista": [
+                    { "Habilidad": "C#", "Nivel": "10" },
+                    { "Habilidad": ".Net Core", "Nivel": "10" },
+                    { "Habilidad": "SQL Express", "Nivel": "7" },
+                    { "Habilidad": "Entity Framework Core", "Nivel": "7" },
+                    { "Habilidad": "MySql", "Nivel": "8" },
+                    { "Habilidad": "PHP", "Nivel": "10" }
+                ]
+            },
+            {
+                "Area": "Otros",
+                "Estilo": "list-group-item-warning fw-bold",
+                "Lista": [
+                    { "Habilidad": "Microsoft Azure", "Nivel": "8" },
+                    { "Habilidad": "Docker", "Nivel": "6" },
+                    { "Habilidad": "Git", "Nivel": "8" },
+                    { "Habilidad": "GitHub", "Nivel": "8" }
+                ]
+            },
+            {
+                "Area": "Movil Apps",
+                "Estilo": "list-group-item-success fw-bold",
+                "Lista": [
+                    { "Habilidad": "Xamarin Forms", "Nivel": "7" }
                 ]
             }
-      }
-    ],
-    "Articulos": [
-        {
-            "Titulo": "Blazor WebAssembly",
-            "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
-            "Fecha": "10-12-2020"
-        },
-        {
-            "Titulo": ".Net 5",
-            "Imagen": "https://www.popwebdesign.net/popart_blog/wp-content/uploads/2020/07/what-is-new-in-dotnet-5.png",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
-            "Fecha": "10-12-2020"
-        },
-        {
-            "Titulo": "Golang",
-            "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
-            "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
-            "Fecha": "10-12-2020"
-        }
-    ]
-  }
+        ],
+        "ExperienciaLaboral": [{
+                "RazonSocial": "A&S Software Developers",
+                "Tiempo": "4 años",
+                "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+                "Descripcion": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.",
+                "Resumen": {
+                    "Labores": [
+                        { "Labor": "Lider tecnico", "Estilo": "bg-dark" },
+                        { "Labor": "Optimizar querys", "Estilo": "bg-primary" },
+                        { "Labor": "Planificar soluciones", "Estilo": "bg-secondary" },
+                        { "Labor": "Desarrollo Front-end", "Estilo": "bg-success" },
+                        { "Labor": "Desarrollo Back-end", "Estilo": "bg-danger" },
+                        { "Labor": "Despliege", "Estilo": "bg-warning text-dark" },
+                        { "Labor": "Investigacion", "Estilo": "bg-info text-dark" },
+                        { "Labor": "Atender requerimiento funcionales", "Estilo": "bg-light text-dark" },
+                        { "Labor": "Instalación", "Estilo": "bg-dark" }
+                    ],
+                    "Tecnologias": [
+                        { "Labor": "PHP", "Estilo": "bg-primary" },
+                        { "Labor": "HTML", "Estilo": "bg-secondary" },
+                        { "Labor": "CSS", "Estilo": "bg-success" },
+                        { "Labor": "Bootstrap", "Estilo": "bg-danger" },
+                        { "Labor": "JQuery", "Estilo": "bg-warning text-dark" },
+                        { "Labor": "SQL Server 2019", "Estilo": "bg-info text-dark" },
+                        { "Labor": "Windows", "Estilo": "bg-light text-dark" },
+                        { "Labor": "Blazor", "Estilo": "bg-dark" },
+                        { "Labor": "Angular", "Estilo": "bg-primary" },
+                        { "Labor": ".Net Core", "Estilo": "bg-secondary" },
+                        { "Labor": "C#", "Estilo": "bg-success" },
+                        { "Labor": "Git", "Estilo": "bg-danger" },
+                        { "Labor": "GitHub", "Estilo": "bg-warning text-dark" },
+                        { "Labor": "Microsoft Azure", "Estilo": "bg-info text-dark" },
+                        { "Labor": "Docker", "Estilo": "bg-light text-dark" },
+                        { "Labor": "SQL Server Profiler", "Estilo": "bg-dark" },
+                        { "Labor": "SQL Server 2017", "Estilo": "bg-primary" },
+                        { "Labor": "Visual Studio 2019", "Estilo": "bg-secondary" },
+                        { "Labor": "JavaScript", "Estilo": "bg-success" },
+                        { "Labor": "TypeScript", "Estilo": "bg-danger" },
+                        { "Labor": "Xamarin Forms", "Estilo": "bg-warning text-dark" }
+                    ]
+                }
+            },
+            {
+                "RazonSocial": "Consulado de Italia - Instituto Italiano",
+                "Tiempo": "2 meses",
+                "Img": "https://iiclima.esteri.it/iic_lima/resource/img/2020/01/iic_lima2.jpg",
+                "Descripcion": "El Instituto Italiano de Cultura - Agregaduría Cultural de la Embajada de Italia, es una Institución Cultural del Gobierno Italiano, el trabajo que realice para el instituto consistio en integrar un formulario para el registro de alumnos a un sistema ya existente. En primer lugar, atendi los requerimientos funcionales para la integracion del software. Ademas, analise la base de datos del instituto, este gestor fue MariaDB. En segundo lugar, realice el desarrollo del formulario utilizando bootstrap junto con JQuery para el front-end y para el back-end desarrolle servicios con PHP. Por ultimo, el depliege de la aplicaion se realizo en un servidor linux. Por lo tanto, fue necesario configurar el servidor, ademas de instalar las dependencias del proyecto.",
+                "Resumen": {
+                    "Labores": [
+                        { "Labor": "Recaudar requerimientos funcionales", "Estilo": "bg-dark" },
+                        { "Labor": "Analise base de datos", "Estilo": "bg-primary" },
+                        { "Labor": "Planifique soluciones", "Estilo": "bg-secondary" },
+                        { "Labor": "Desarrollo Front-end", "Estilo": "bg-success" },
+                        { "Labor": "Desarrollo Back-end", "Estilo": "bg-danger" },
+                        { "Labor": "Testing", "Estilo": "bg-warning text-dark" },
+                        { "Labor": "Despliege", "Estilo": "bg-info text-dark" },
+                        { "Labor": "Configuración", "Estilo": "bg-light text-dark" },
+                        { "Labor": "Instalación", "Estilo": "bg-dark" }
+                    ],
+                    "Tecnologias": [
+                        { "Labor": "PHP", "Estilo": "bg-primary" },
+                        { "Labor": "HTML", "Estilo": "bg-secondary" },
+                        { "Labor": "CSS", "Estilo": "bg-success" },
+                        { "Labor": "Bootstrap", "Estilo": "bg-danger" },
+                        { "Labor": "JQuery", "Estilo": "bg-warning text-dark" },
+                        { "Labor": "MariaDB", "Estilo": "bg-info text-dark" },
+                        { "Labor": "Linux-Ubuntu", "Estilo": "bg-light text-dark" },
+                        { "Labor": "SSH", "Estilo": "bg-dark" }
+                    ]
+                }
+            }
+        ],
+        "Articulos": [{
+                "Titulo": "Blazor WebAssembly",
+                "Imagen": "https://docs.microsoft.com/es-es/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-5.0",
+                "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+                "Fecha": "10-12-2020"
+            },
+            {
+                "Titulo": ".Net 5",
+                "Imagen": "https://www.popwebdesign.net/popart_blog/wp-content/uploads/2020/07/what-is-new-in-dotnet-5.png",
+                "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+                "Fecha": "10-12-2020"
+            },
+            {
+                "Titulo": "Golang",
+                "Imagen": "https://stackify.com/wp-content/uploads/2018/09/Learn-Go_-Tutorials-for-Beginners-Intermediate-and-Advanced-programmers-1280x720.jpg",
+                "Contenido": "Blazor es un framework para la construcción de aplicaciones SPA. Este framework tiene 2 particularidades. Por un lado, Blazor se ejecuta en el servidor usando una conexión persistente usando SignalR y a esta caracteristica se le conoce como <b> Blazor Server</b>. Por otro lado, <b> Blazor WebAssembly</b> descarga las DLLs del proyector para poder ejeutar la aplicaion en el navegador.",
+                "Fecha": "10-12-2020"
+            }
+        ]
+    }
 }
