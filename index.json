@@ -216,7 +216,7 @@
         },
         "Despedida": {
             "TitleDespedidaArt": "Hasta luego, espero te guste mi mensaje",
-            "ContentDespedida": "Las malas practicas se convierten en malas costumbres, las malas costumbres traen malos hábitos y los malos hábitos nos hacen cometer errores. <b>No se puede cambiar el pasado</b>, sin embargo, <b>si podemos cambiar nuestro futuro</b>. Las buenas practicas se convierten en buenas costumbres, las buenas costumbres traen buenos hábitos y los buenos hábitos nos hacen mejor persona.",
+            "ContentDespedida": "",
             "FooterDespedida": "Nunca pares de aprender."
         },
         "Footer": "Pregúntame lo que sea estoy dispuesto a ayudarte <a href='https://www.linkedin.com/in/percy-luis-leon-lucas/' class='text-dark fw-bold text-decoration-none'>Percy Leon"
