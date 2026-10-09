@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Vista previa — Percy Leon · Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page-bg-orbit" aria-hidden="true">
+  <div class="orbit-stage">
+    <div class="orbit orbit--outer">
+      <div class="orbit-ring"></div>
+      <div class="orbit-item" style="--delay:0s;--accent:#0ea5e9"><span class="orbit-badge">Redis</span></div>
+      <div class="orbit-item" style="--delay:-4.25s;--accent:#7c3aed"><span class="orbit-badge">Kubernetes</span></div>
+      <div class="orbit-item" style="--delay:-8.5s;--accent:#0284c7"><span class="orbit-badge">Azure</span></div>
+      <div class="orbit-item" style="--delay:-12.75s;--accent:#d97706"><span class="orbit-badge">AWS</span></div>
+      <div class="orbit-item" style="--delay:-17s;--accent:#7c3aed"><span class="orbit-badge">Blazor WebAssembly</span></div>
+      <div class="orbit-item" style="--delay:-21.25s;--accent:#d97706"><span class="orbit-badge">JavaScript</span></div>
+      <div class="orbit-item" style="--delay:-25.5s;--accent:#059669"><span class="orbit-badge">Kafka</span></div>
+      <div class="orbit-item" style="--delay:-29.75s;--accent:#db2777"><span class="orbit-badge">Linux</span></div>
+    </div>
+    <div class="orbit orbit--inner">
+      <div class="orbit-ring"></div>
+      <div class="orbit-item" style="--delay:0s;--accent:#db2777"><span class="orbit-badge">Angular</span></div>
+      <div class="orbit-item" style="--delay:-2.75s;--accent:#4f46e5"><span class="orbit-badge">C#</span></div>
+      <div class="orbit-item" style="--delay:-5.5s;--accent:#d97706"><span class="orbit-badge">Java</span></div>
+      <div class="orbit-item" style="--delay:-8.25s;--accent:#0ea5e9"><span class="orbit-badge">Docker</span></div>
+      <div class="orbit-item" style="--delay:-11s;--accent:#059669"><span class="orbit-badge">Python</span></div>
+      <div class="orbit-item" style="--delay:-13.75s;--accent:#4f46e5"><span class="orbit-badge">.NET</span></div>
+      <div class="orbit-item" style="--delay:-16.5s;--accent:#0284c7"><span class="orbit-badge">SQL</span></div>
+      <div class="orbit-item" style="--delay:-19.25s;--accent:#7c3aed"><span class="orbit-badge">Git</span></div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar-simple">
+  <div class="container navbar-simple__inner">
+    <a class="navbar-simple__brand" href="#">Percy Leon</a>
+    <div class="navbar-simple__links">
+      <a href="#about">Sobre mí</a>
+      <a href="#experience">Intereses</a>
+      <a href="#" id="theme-toggle" aria-label="Cambiar tema">
+        <i class="fa-solid fa-moon"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-narrow has-text-centered">
+          <figure class="hero__photo">
+            <img src="Perfil.jpg" alt="Percy Leon">
+          </figure>
+          <div class="hero__socials mt-4">
+            <a class="hero__social" href="https://github.com/perleon-dev" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-1.94c-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.73 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.07.78 2.16v3.2c0 .3.21.66.79.55A11.5 11.5 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+            </a>
+            <a class="hero__social" href="https://www.linkedin.com/in/percy-luis-leon-lucas/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+            </a>
+            <a class="hero__social" href="https://www.instagram.com/perleon.dev/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </a>
+            <a class="hero__social" href="https://www.tiktok.com/@un_dev_empedernido" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.3 2.1 1.7 3.7 3.9 4v3c-1.4 0-2.7-.4-3.9-1.2v6.8a6.3 6.3 0 1 1-6.3-6.3c.3 0 .6 0 .9.06v3.1a3.2 3.2 0 1 0 2.4 3.1V2h3Z"/></svg>
+            </a>
+            <a class="hero__social" href="https://www.youtube.com/channel/UCJ6KiNjbtW_I6xOQjXU1lGg/featured" target="_blank" rel="noopener" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12s0-3.2-.4-4.7a2.8 2.8 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.3a2.8 2.8 0 0 0-2 2C2 8.8 2 12 2 12s0 3.2.4 4.7c.2 1 1 1.8 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.3a2.8 2.8 0 0 0 2-2C22 15.2 22 12 22 12ZM10 15.5v-7l6 3.5-6 3.5Z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="column hero__info">
+          <h1 class="title is-2">Percy Leon</h1>
+          <p class="subtitle is-5 has-text-link">Ingeniero de Software</p>
+          <p class="has-text-grey mb-4">Dev. empedernido · Nerd profesional</p>
+          <div class="tags">
+            <span class="tag is-rounded tag-coffee"><i class="fa-solid fa-plus tag-icon"></i>Adicto al café</span>
+            <span class="tag is-rounded tag-freelance"><i class="fa-solid fa-plus tag-icon"></i>Freelance</span>
+            <span class="tag is-rounded tag-iot"><i class="fa-solid fa-plus tag-icon"></i>IoT</span>
+            <span class="tag is-rounded tag-ia"><i class="fa-solid fa-plus tag-icon"></i>IA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <span class="eyebrow">Sobre mí</span>
+    <p class="has-text-grey is-justified">Me gusta la sencillez. En un futuro no muy lejano tendré mi finca y me desligaré de la tecnología. Mientras tanto, sigo en este rubro, el cual disfruto mucho. Implemento soluciones tecnológicas y también creo contenido sobre lo que hago. Si puedo ayudarte en algo, no dudes en contactarme.</p>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <span class="eyebrow">Intereses Profesionales</span>
+    <div class="columns is-multiline">
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3 class="title is-6 mb-0">Inteligencia Artificial</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <h3 class="title is-6 mb-0">Arquitectura de Software</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h3 class="title is-6 mb-0">Soluciones IoT</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+          </div>
+          <h3 class="title is-6 mb-0">Migración de Sistemas</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-infinity"></i>
+          </div>
+          <h3 class="title is-6 mb-0">DevOps</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="title is-6 mb-0">Desarrollo de Software</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <h3 class="title is-6 mb-0">FinOps</h3>
+        </div>
+      </div>
+
+      <div class="column is-6-tablet is-3-desktop">
+        <div class="exp-card">
+          <div class="exp-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="title is-6 mb-0">Ciberseguridad</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('theme-toggle');
+  const toggleIcon = toggleBtn.querySelector('i');
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    toggleIcon.className = theme === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+  }
+
+  const saved = localStorage.getItem('theme') || 'light';
+  applyTheme(saved);
+
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', next);
+    applyTheme(next);
+  });
+</script>
+
+</body>
+</html>
