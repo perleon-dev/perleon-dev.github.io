@@ -41,7 +41,7 @@ body{font-family:var(--font-sans);background:var(--color-bg);color:var(--color-t
 
 /* HERO PHOTO */
 .hero__photo{
-  width:300px;height:300px;border-radius:50%;flex-shrink:0;margin:0 auto;
+  width:clamp(220px,70vw,300px);height:clamp(220px,70vw,300px);border-radius:50%;flex-shrink:0;margin:0 auto;
   background:var(--color-icon-bg);border:1px solid var(--color-border);
   display:flex;align-items:center;justify-content:center;overflow:hidden;
 }
