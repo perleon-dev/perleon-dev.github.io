@@ -41,7 +41,7 @@ body{font-family:var(--font-sans);background:var(--color-bg);color:var(--color-t
 
 /* HERO PHOTO */
 .hero__photo{
-  width:280px;height:280px;border-radius:50%;flex-shrink:0;margin:0 auto;
+  width:300px;height:300px;border-radius:50%;flex-shrink:0;margin:0 auto;
   background:var(--color-icon-bg);border:1px solid var(--color-border);
   display:flex;align-items:center;justify-content:center;overflow:hidden;
 }
@@ -58,6 +58,7 @@ body{font-family:var(--font-sans);background:var(--color-bg);color:var(--color-t
 .hero__social svg{width:16px;height:16px}
 .hero .columns{flex-direction:column !important;align-items:center;justify-content:center;text-align:center}
 .hero__info{text-align:center}
+.hero__info .subtitle.is-5{font-size:1.1rem}
 .hero__info .tags{justify-content:center}
 .hero__info .tags .tag{margin:.25rem}
 
@@ -95,11 +96,21 @@ body{font-family:var(--font-sans);background:var(--color-bg);color:var(--color-t
 }
 @keyframes orbit-spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @keyframes orbit-spin-reverse{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(-360deg)}}
-@media (max-width:768px){.orbit--outer{width:120vmin;height:120vmin}.page-bg-orbit{opacity:.25}}
+@media (max-width:768px){
+  .orbit--outer{width:120vmin;height:120vmin}
+  /* En móvil la animación se ancla al alto del hero (en vez de quedar fija sobre toda la página)
+     para que no se desplace sobre secciones posteriores como "Intereses Profesionales". */
+  .page-bg-orbit{position:absolute;top:0;height:100vh;opacity:.25}
+  .orbit-stage{transform:translateY(-70px)}
+}
 
 /* Padding de los bloques de contenido, sin tapar el fondo animado */
 .hero .container,.section .container{
   padding:1.5rem;
+}
+@media (max-width:768px){
+  .hero-body,.section{padding-left:1rem;padding-right:1rem}
+  .hero .container,.section .container{padding:1rem}
 }
 
 
